@@ -11,7 +11,7 @@
 ###################################################################
 
 # Set Paths
-mainPath=/mnt/c/Users/borlinc/Documents/Projects/190219_ChipExoPipeline
+mainPath=/home/ChipExoPipeline
 outputPath=${mainPath}/Results
 tmpPath=${mainPath}/TMP
 softwarePath=${mainPath}/3rdPartySoftware
@@ -25,14 +25,14 @@ refGenomeBowtiePath=${dataPath}/RefGenomeBowtie
 #PATH=${softwarePath}/bowtie2-2.3.3.1/:$PATH
 #PATH=${softwarePath}/samtools-1.6/:$PATH
 #PATH=${softwarePath}/bedtools2/bin/:$PATH
-PATH=${softwarePath}/bamUtil-master/:$PATH
+#PATH=${softwarePath}/bamUtil-master/:$PATH
 
 #Set TF and Date (used as a postfix for result files)
 TF=Ino2
-date=190220
+date=190313
 
 #Set names of conditions and replicates
-condList=(Ana Eth Glu Nit)
+condList=(Eth Glu)
 repNames=(1 2)
 
 # Choose which parts of the programm should be run by setting their value to 1 (turn off with 0).
