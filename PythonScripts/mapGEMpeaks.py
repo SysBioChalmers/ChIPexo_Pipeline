@@ -39,8 +39,9 @@ if os.path.isfile(pathToGEM):
 		for gene in TSSData:
 			if selChr==gene[1] and abs(selPos-int(gene[2]))<=1000:
 				for cond in condList:
-					outputDataDetailed.loc[len(outputDataDetailed)+1]=[gene[0],selChr,selPos,gene[3],abs(selPos-int(gene[2])),gemData.iloc[i]['Cond'+cond+'_IP'],cond]
-					outputData.loc[gene[0],cond]+=gemData.iloc[i]['Cond'+cond+'_Present']
+					if gemData.iloc[i]['Cond'+cond+'_Present']==1:
+						outputDataDetailed.loc[len(outputDataDetailed)+1]=[gene[0],selChr,selPos,gene[3],abs(selPos-int(gene[2])),gemData.iloc[i]['Cond'+cond+'_IP'],cond]
+						outputData.loc[gene[0],cond]+=gemData.iloc[i]['Cond'+cond+'_Present']
 
 	outputData=outputData.loc[outputData.sum(axis=1)>0]
 	outputData.to_csv(pathForOutput+'/'+tf+'_geneTargetList_'+date+'.csv')
