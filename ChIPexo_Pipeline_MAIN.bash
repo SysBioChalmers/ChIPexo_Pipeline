@@ -11,7 +11,7 @@
 ###################################################################
 
 # Set Paths
-mainPath=/home/ChipExoPipeline
+mainPath=$(pwd)
 outputPath=${mainPath}/Results
 tmpPath=${mainPath}/TMP
 softwarePath=${mainPath}/3rdPartySoftware
@@ -29,7 +29,7 @@ refGenomeBowtiePath=${dataPath}/RefGenomeBowtie
 
 #Set TF and Date (used as a postfix for result files)
 TF=Ino2
-date=190313
+date=190220
 
 #Set names of conditions and replicates
 condList=(Eth Glu)
@@ -41,8 +41,8 @@ bamOut=1
 strandSepWigOut=1
 overlapWigOut=1
 runGEM=1
-runAnalysisReads=1
 runAnalysisGEM=1
+runAnalysisReads=1
 
 #Set number of available cores, used for bowtie2
 numCores=4
@@ -151,8 +151,8 @@ if [ ${runAnalysisReads} == 1 ]; then
 	echo "$(date +%T) ${TF} create PairwiseComparision"
 	python3 ${pythonPath}/plotSampleCorrelation.py ${TF} ${tmpPath}/${TF}_SAMPLE_ol.wig ${outputPath} ${refGenomePath}/CENPK_chromSizes ${date} ${condListWithReps[@]}
 	for cond in ${condList[@]}; do
-			echo "$(date +%T) ${TF}_${cond} create readProfile"
-			python3 ${pythonPath}/plotTFReadProfile.py ${TF} ${cond} "${outputPath}/${TF}_${cond}_ol_combRep_geneAssigned_${date}.wigLike" "${outputPath}" "${date}"
+		echo "$(date +%T) ${TF}_${cond} create readProfile"
+		python3 ${pythonPath}/plotTFReadProfile.py ${TF} ${cond} "${outputPath}/${TF}_${cond}_ol_combRep_geneAssigned_${date}.wigLike" "${outputPath}" "${date}"
 	done
 fi
 if [ ${runAnalysisGEM} == 1 ]; then
