@@ -72,14 +72,14 @@ for sample in samples:
 		for i in range(0,genomeSize[chrTMP],intervalSize):
 			sampleDataBinned[sample].append(sum([x[1] for x in sampleData[sample][chrTMP] if x[0] >=i and x[0] < min(i+intervalSize,genomeSize[chrTMP])]))
 
-# #go through all positions and only take them if there are reads in at least one sample
-# sampleDataBinnedFiltered={}
-# for sample in sampleDataBinned.keys():
-	# sampleDataBinnedFiltered[sample]=[]
-# for i in range(0,len(sampleDataBinned[samples[0]])):
-	# if sum([sampleDataBinned[x][i] for x in sampleDataBinned.keys()])>0:
-		# for sample in sampleDataBinned.keys():
-			# sampleDataBinnedFiltered[sample].append(sampleDataBinned[sample][i])
+#go through all positions and only take them if there are reads in at least one sample
+sampleDataBinnedFiltered={}
+for sample in sampleDataBinned.keys():
+	sampleDataBinnedFiltered[sample]=[]
+for i in range(0,len(sampleDataBinned[samples[0]])):
+	if sum([sampleDataBinned[x][i] for x in sampleDataBinned.keys()])>0:
+		for sample in sampleDataBinned.keys():
+			sampleDataBinnedFiltered[sample].append(sampleDataBinned[sample][i])
 
 #make plot
 fig=plt.figure(figsize=(4*(numSamples-1),4*(numSamples-1)))
@@ -88,12 +88,12 @@ ax={}
 for i in range(0,len(plotPositions)):
 	ax[i]=fig.add_subplot(numSamples-1,numSamples-1,plotPositions[i])
 	with np.errstate(divide='ignore'):
-		sample1=np.log2(sampleDataBinned[samples[plotPartners[i][0]]])
+		sample1=np.log2(sampleDataBinnedFiltered[samples[plotPartners[i][0]]])
 		sample1[np.isinf(sample1)]=0
-		sample2=np.log2(sampleDataBinned[samples[plotPartners[i][1]]])
+		sample2=np.log2(sampleDataBinnedFiltered[samples[plotPartners[i][1]]])
 		sample2[np.isinf(sample2)]=0
 	ax[i].plot(sample1,sample2,'bo',ms=5,alpha=0.3,mew=0)
-	PCC=round(pearsonr(sampleDataBinned[samples[plotPartners[i][0]]],sampleDataBinned[samples[plotPartners[i][1]]])[0],2)
+	PCC=round(pearsonr(sampleDataBinnedFiltered[samples[plotPartners[i][0]]],sampleDataBinnedFiltered[samples[plotPartners[i][1]]])[0],2)
 	plt.title(samples[plotPartners[i][0]]+' vs ' +samples[plotPartners[i][1]]+' - PCC: '+str(PCC),fontSize=16)
 	if xlabels.get(plotPositions[i],0)!=0:
 		plt.xlabel(xlabels[plotPositions[i]]+' read count [log2]',fontSize=16)
