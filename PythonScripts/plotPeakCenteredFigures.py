@@ -80,7 +80,7 @@ redData[redData[:,:,3]>0.75,3]=0.75
 #plot histogram
 fig, ax = plt.subplots(figsize=(10, 12))
 plt.xticks([0,24,50,75,100],[-50,-25,0,25,50])
-plt.xlabel('Distance from Peak [bp]',fontsize=14)
+plt.xlabel('Distance from Peak [bp]',fontsize=16)
 plt.yticks([],[])
 plt.title('Read distribution around '+str(len(gemData))+' peaks for '+selectedTF+' in '+cond,fontsize=16)
 ax.imshow(blueData,interpolation=None,aspect='auto')
@@ -89,14 +89,14 @@ fig.savefig(outputPath+'_PeakHistogram_'+date+'.png',dpi=300,bbox_inches="tight"
 
 #Plot overview
 maxValue=round(max([max(strandProfile['plus'].sum(axis=0)),max(strandProfile['minus'].sum(axis=0))])*1.05)
-fig = plt.figure(figsize=(12,8),dpi=80)
+fig = plt.figure(figsize=(10,6),dpi=80)
 plt.plot(range(-50,51),strandProfile['plus'].sum(axis=0),color='blue')
 plt.fill_between(range(-50,51), strandProfile['plus'].sum(axis=0), y2=0,color='blue',alpha=0.25)
 plt.plot(range(-50,51),-strandProfile['minus'].sum(axis=0),color='red')
 plt.fill_between(range(-50,51), -strandProfile['minus'].sum(axis=0), y2=0,color='red',alpha=0.25)
 plt.ylim(-maxValue,maxValue)
-plt.ylabel('Read count',fontsize=14)
-plt.xlabel('Distance from Peak [bp]',fontsize=14)
+plt.ylabel('Read count',fontsize=16)
+plt.xlabel('Distance from Peak [bp]',fontsize=16)
 plt.title('Read distribution around '+str(len(gemData))+' peaks for '+selectedTF+' in '+cond,fontsize=16)
 plt.xticks([-50,-25,0,25,50],[-50,-25,0,25,50])        
 fig.savefig(outputPath+'_PeakProfile_'+date+'.png',dpi=300,bbox_inches="tight")
