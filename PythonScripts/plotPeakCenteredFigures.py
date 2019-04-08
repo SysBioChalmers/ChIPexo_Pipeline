@@ -68,14 +68,14 @@ blueData=np.zeros([strandProfile['plus'].shape[0],strandProfile['plus'].shape[1]
 blueData[:,:,2]=np.ones(blueData[:,:,2].shape)
 blueData[:,:,3]=strandProfile['plus']/(np.max(strandProfile['plus'].values)*0.10)
 #everything above 0.75 is clipped to 0.75
-blueData[blueData[:,:,3]>0.75,3]=0.75        
+blueData[blueData[:,:,3]>0.75,3]=0.75
 
 #create plot data for minus strand / red color
 redData=np.zeros([strandProfile['minus'].shape[0],strandProfile['minus'].shape[1],4])
 redData[:,:,0]=np.ones(redData[:,:,2].shape)
 redData[:,:,3]=strandProfile['minus']/(np.max(strandProfile['minus'].values)*0.10)
 #everything above 0.75 is clipped to 0.75
-redData[redData[:,:,3]>0.75,3]=0.75         
+redData[redData[:,:,3]>0.75,3]=0.75
 
 #plot histogram
 fig, ax = plt.subplots(figsize=(10, 12))
@@ -84,19 +84,20 @@ plt.xlabel('Distance from Peak [bp]',fontsize=16)
 plt.yticks([],[])
 plt.title('Read distribution around '+str(len(gemData))+' peaks for '+selectedTF+' in '+cond,fontsize=16)
 ax.imshow(blueData,interpolation=None,aspect='auto')
-ax.imshow(redData,interpolation=None,aspect='auto') 
+ax.imshow(redData,interpolation=None,aspect='auto')
 fig.savefig(outputPath+'_PeakHistogram_'+date+'.png',dpi=300,bbox_inches="tight")
 
 #Plot overview
 maxValue=round(max([max(strandProfile['plus'].sum(axis=0)),max(strandProfile['minus'].sum(axis=0))])*1.05)
 fig = plt.figure(figsize=(10,6),dpi=80)
-plt.plot(range(-50,51),strandProfile['plus'].sum(axis=0),color='blue')
+plt.plot(range(-50,51),strandProfile['plus'].sum(axis=0),color='blue',label='Forward strand')
 plt.fill_between(range(-50,51), strandProfile['plus'].sum(axis=0), y2=0,color='blue',alpha=0.25)
-plt.plot(range(-50,51),-strandProfile['minus'].sum(axis=0),color='red')
+plt.plot(range(-50,51),-strandProfile['minus'].sum(axis=0),color='red',label='Reverse strand')
 plt.fill_between(range(-50,51), -strandProfile['minus'].sum(axis=0), y2=0,color='red',alpha=0.25)
 plt.ylim(-maxValue,maxValue)
 plt.ylabel('Read count',fontsize=16)
 plt.xlabel('Distance from Peak [bp]',fontsize=16)
 plt.title('Read distribution around '+str(len(gemData))+' peaks for '+selectedTF+' in '+cond,fontsize=16)
-plt.xticks([-50,-25,0,25,50],[-50,-25,0,25,50])        
+plt.xticks([-50,-25,0,25,50],[-50,-25,0,25,50])
+plt.legend(fontsize=16,loc=1)
 fig.savefig(outputPath+'_PeakProfile_'+date+'.png',dpi=300,bbox_inches="tight")
