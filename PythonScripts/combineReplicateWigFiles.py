@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Jul 19 13:59:04 2018
-
-@author: borlinc
+Python SubFunction to normalize and then combine replicates.
+Part of the ChIP-exo data analysis pipeline
+@author: Christoph S. Boerlin; Chalmers University of Technology, Gothenburg Sweden
 """
 
 import numpy as np
