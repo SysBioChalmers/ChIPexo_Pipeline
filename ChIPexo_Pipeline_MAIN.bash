@@ -19,7 +19,9 @@ pythonPath=${mainPath}/PythonScripts
 dataPath=${mainPath}/Data
 rawDataPath=${dataPath}
 refGenomePath=${dataPath}/RefGenome
+refGenomeName=CENPK113-7D
 refGenomeBowtiePath=${dataPath}/RefGenomeBowtie
+
 
 #Add bowtie2, samtools, bedtools and bamutils to path if needed
 #PATH=${softwarePath}/bowtie2-2.3.3.1/:$PATH
@@ -80,7 +82,7 @@ if [ ${mapFastq} == 1 ]; then
 
 	for cond in ${condListWithReps[@]}; do
 		echo "$(date +%T) Map reads with bowtie2 for $cond"
-		bowtie2 -p ${numCores} -x ${refGenomeBowtiePath}/CENPK113-7D -1 ${tmpPath}/${seqFiles[${cond}_R1]} -2 ${tmpPath}/${seqFiles[${cond}_R2]} -S ${tmpPath}/${TF}_${cond}.sam --no-mixed --no-discordant
+		bowtie2 -p ${numCores} -x ${refGenomeBowtiePath}/${refGenomeName} -1 ${tmpPath}/${seqFiles[${cond}_R1]} -2 ${tmpPath}/${seqFiles[${cond}_R2]} -S ${tmpPath}/${TF}_${cond}.sam --no-mixed --no-discordant
 	done
 
 	for i in ${condListWithReps[@]}; do
@@ -137,7 +139,7 @@ if [ ${runGEM} == 1 ]; then
 		samtools sort -@10 ${tmpPath}/${TF}_${i}_${trim}.bam  -o ${tmpPath}/${TF}_${i}_${trim}.sorted.bam
 		samtools index ${tmpPath}/${TF}_${i}_${trim}.sorted.bam
 	done
-	gemGenomeInput=" --d ${softwarePath}/GEM/Read_Distribution_ChIP-exo.txt --g ${refGenomePath}/CENPK_chromSizes --genome ${refGenomePath}/ --ex ${refGenomePath}/GEMexclude.txt"
+	gemGenomeInput=" --d ${softwarePath}/GEM/Read_Distribution_ChIP-exo.txt --g ${refGenomePath}/${refGenomeName}_chromSizes --genome ${refGenomePath}/ --ex ${refGenomePath}/GEMexclude.txt"
 	gemDataInput=''
 	for cond in ${condList[@]}; do
 		for repI in ${repNames[@]}; do
@@ -149,7 +151,7 @@ fi
 
 if [ ${runAnalysisReads} == 1 ]; then
 	echo "$(date +%T) ${TF} create PairwiseComparision"
-	python3 ${pythonPath}/plotSampleCorrelation.py ${TF} ${tmpPath}/${TF}_SAMPLE_ol.wig ${outputPath} ${refGenomePath}/CENPK_chromSizes ${date} ${condListWithReps[@]}
+	python3 ${pythonPath}/plotSampleCorrelation.py ${TF} ${tmpPath}/${TF}_SAMPLE_ol.wig ${outputPath} ${refGenomePath}/${refGenomeName}_chromSizes ${date} ${condListWithReps[@]}
 	for cond in ${condList[@]}; do
 		echo "$(date +%T) ${TF}_${cond} create readProfile"
 		python3 ${pythonPath}/plotTFReadProfile.py ${TF} ${cond} "${outputPath}/${TF}_${cond}_ol_combRep_geneAssigned_${date}.wigLike" "${outputPath}" "${date}"
