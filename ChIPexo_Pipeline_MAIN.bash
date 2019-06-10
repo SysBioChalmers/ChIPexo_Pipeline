@@ -128,7 +128,7 @@ if [ ${overlapWigOut} == 1 ]; then
 	for i in ${condList[@]}; do
 		echo "$(date +%T) ${TF}_${i} combine replicates"
 		python3 ${pythonPath}/combineReplicateWigFiles.py "${tmpPath}/${TF}_${i}1_ol.wig" "${tmpPath}/${TF}_${i}2_ol.wig" "${outputPath}/${TF}_${i}_ol_combRep_${date}.wig" "${dataPath}/Filterlist_regions.txt" "${dataPath}/Filterlist_chromosomes.txt"
-		echo "$(date +%T) ${TF}_${i} assign data to genes" "${dataPath}/Filterlist_regions.txt" "${dataPath}/Filterlist_chromosomes.txt"
+		echo "$(date +%T) ${TF}_${i} assign data to genes"
 		python3 ${pythonPath}/assignWigDataToGenes.py "${dataPath}/TSSdata.tsv" "${outputPath}/${TF}_${i}_ol_combRep_${date}.wig" "${outputPath}/${TF}_${i}_ol_combRep_geneAssigned_${date}.wigLike"
 	done
 fi
