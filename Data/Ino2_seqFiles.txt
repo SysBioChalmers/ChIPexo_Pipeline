@@ -1,12 +1,12 @@
 declare -A seqFiles
-seqFiles['Eth1_R1']="Ino2-3_S3_L000_R1_001.fastq.gz"
-seqFiles['Eth1_R2']="Ino2-3_S3_L000_R2_001.fastq.gz" 
+seqFiles['Eth1_R1']="Ino2_Eth1_R1.fastq.gz"
+seqFiles['Eth1_R2']="Ino2_Eth1_R2.fastq.gz" 
 
-seqFiles['Eth2_R1']="Ino2-4_S4_L000_R1_001.fastq.gz" 
-seqFiles['Eth2_R2']="Ino2-4_S4_L000_R2_001.fastq.gz" 
+seqFiles['Eth2_R1']="Ino2_Eth2_R1.fastq.gz" 
+seqFiles['Eth2_R2']="Ino2_Eth2_R2.fastq.gz" 
 
-seqFiles['Glu1_R1']="Ino2-7_S7_L000_R1_001.fastq.gz" 
-seqFiles['Glu1_R2']="Ino2-7_S7_L000_R2_001.fastq.gz" 
+seqFiles['Glu1_R1']="Ino2_Glu1_R1.fastq.gz" 
+seqFiles['Glu1_R2']="Ino2_Glu1_R2.fastq.gz" 
 
-seqFiles['Glu2_R1']="Ino2-8_S8_L000_R1_001.fastq.gz" 
-seqFiles['Glu2_R2']="Ino2-8_S8_L000_R2_001.fastq.gz" 
+seqFiles['Glu2_R1']="Ino2_Glu2_R1.fastq.gz" 
+seqFiles['Glu2_R2']="Ino2_Glu2_R2.fastq.gz" 
