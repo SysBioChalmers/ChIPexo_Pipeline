@@ -153,7 +153,7 @@ fi
 
 if [ ${runAnalysisReads} == 1 ]; then
 	echo "$(date +%T) ${TF} create PairwiseComparision"
-	python3 ${pythonPath}/plotSampleCorrelation.py ${TF} ${tmpPath}/${TF}_SAMPLE_ol.wig ${outputPath} ${refGenomePath}/${refGenomeName}_chromSizes ${date} ${condListWithReps[@]}
+	python3 ${pythonPath}/plotSampleCorrelation.py ${TF} ${tmpPath}/${TF}_SAMPLE_ol.wig ${outputPath} ${refGenomePath}/${refGenomeName}_chromSizes ${date} "${dataPath}/Filterlist_regions.txt" "${dataPath}/Filterlist_chromosomes.txt" ${condListWithReps[@]}
 	for cond in ${condList[@]}; do
 		echo "$(date +%T) ${TF}_${cond} create readProfile"
 		python3 ${pythonPath}/plotTFReadProfile.py ${TF} ${cond} "${outputPath}/${TF}_${cond}_ol_combRep_geneAssigned_${date}.wigLike" "${outputPath}" "${date}"
