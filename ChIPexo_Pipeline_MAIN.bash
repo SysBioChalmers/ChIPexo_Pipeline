@@ -31,7 +31,7 @@ PATH=${softwarePath}/bamUtil-master/:$PATH
 
 #Set TF and Date (used as a postfix for result files)
 TF=Ino2
-date=190604
+date=190610
 
 #Set names of conditions and replicates
 condList=(Eth Glu)
@@ -80,7 +80,7 @@ source ${rawDataPath}/${TF}_seqFiles.txt
 
 if [ ${mapFastq} == 1 ]; then
 	echo "$(date +%T) Unpack tarball to TMPDIR"
-	#tar xzvf ${mainPath}/Data/${TF}*rawdata.tar.gz -C ${tmpPath}/
+	tar xzvf ${mainPath}/Data/${TF}*rawdata.tar.gz -C ${tmpPath}/
 
 	for cond in ${condListWithReps[@]}; do
 		echo "$(date +%T) Map reads with bowtie2 for $cond"
