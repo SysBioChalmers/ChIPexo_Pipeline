@@ -29,8 +29,8 @@ for t in TFDataRaw:
       
 #plot
 fig = plt.figure(figsize=(10,6),dpi=80)
-plt.plot(TFData.columns,[TFData.mean(axis=0).mean()]*len(TFData.columns),'--',color='grey',lineWidth=2,label='Average')
-plt.plot(TFData.mean(axis=0),'g',lineWidth=2,label=selectedTF+'_'+selectedCond)
+plt.plot(TFData.columns,[1]*len(TFData.columns),'--',color='grey',lineWidth=2,label='Average')
+plt.plot(TFData.mean(axis=0)/TFData.mean(axis=0).mean(),'g',lineWidth=2,label=selectedTF+'_'+selectedCond)
 plt.xticks([0,500,1000,1500,2000],['-1000bp','-500bp','TSS','+500bp','+1000bp'])
 plt.ylabel('Normalized Read Count',fontsize=16)
 plt.legend(fontsize=16)
