@@ -8,6 +8,9 @@ Part of the ChIP-exo data analysis pipeline
 import numpy as np
 import sys
 
+filterRegions=[[x for x in line.rstrip('\n\r').split('\t')] for line in open(sys.argv[len(sys.argv)-2])]
+filterChromosomes=[line.rstrip('\n\r') for line in open(sys.argv[len(sys.argv)-1])]
+
 dataList_split={}
 for repI in [1,2]:
     #import TF data
@@ -21,18 +24,21 @@ for repI in [1,2]:
             dataList.append([chromTMP,data[i][0],data[i][1]])          
     #print('Done Import TF Data - '+datetime.now().strftime('%H:%M:%S'))
                
-    #remove part on chrom 12, plasmid-2-micron, mit or unplaced telemore
+    #remove regions and chromosomes as specified
     filterList=[]
     for i in range(0,len(dataList)):
-        if dataList[i][0]=='chr12':
-            if int(dataList[i][1])>=429000 and int(dataList[i][1])<=438500:
-                filterList.append(i)
-        elif dataList[i][0]=='plasmid-2-micron' or dataList[i][0]=='mit' or dataList[i][0]=='unplaced_telomere_1' or dataList[i][0]=='unplaced_telomere_2':
+        if dataList[i][0] in filterChromosomes:
             filterList.append(i)
+        else:
+            for filterRegion in filterRegions:        
+                if dataList[i][0]==filterRegion[0]:
+                    if int(dataList[i][1])>=int(filterRegion[1]) and int(dataList[i][1])<=int(filterRegion[2]):
+                        filterList.append(i)
+        
     for index in sorted(filterList, reverse=True):
         del dataList[index]
     del chromTMP, data, index, filterList
-    #print('Done Chr12 Filtering - '+datetime.now().strftime('%H:%M:%S'))
+    #print('Done Filtering - '+datetime.now().strftime('%H:%M:%S'))
 
     #Calculate Background Value
     TFsumTMP=0
@@ -62,7 +68,7 @@ for chrI in ['chr1','chr2','chr3','chr4','chr5','chr6','chr7','chr8','chr9','chr
         
             
 #write processed wigFile
-f = open(sys.argv[3], 'w')
+f = open(sys.argv[len(sys.argv)-3], 'w')
 f.write('track type=track1\n')
 for chrI in ['chr1','chr2','chr3','chr4','chr5','chr6','chr7','chr8','chr9','chr10','chr11','chr12','chr13','chr14','chr15','chr16']:
     if len(combinedList[chrI])>0:

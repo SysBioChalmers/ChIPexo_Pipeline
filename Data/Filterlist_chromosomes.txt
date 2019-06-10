@@ -1,0 +1,4 @@
+plasmid-2-micron
+mit
+unplaced_telomere_1
+unplaced_telomere_2

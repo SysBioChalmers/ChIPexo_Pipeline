@@ -27,11 +27,11 @@ refGenomeBowtiePath=${dataPath}/RefGenomeBowtie
 #PATH=${softwarePath}/bowtie2-2.3.3.1/:$PATH
 #PATH=${softwarePath}/samtools-1.6/:$PATH
 #PATH=${softwarePath}/bedtools2/bin/:$PATH
-#PATH=${softwarePath}/bamUtil-master/:$PATH
+PATH=${softwarePath}/bamUtil-master/:$PATH
 
 #Set TF and Date (used as a postfix for result files)
 TF=Ino2
-date=190220
+date=190604
 
 #Set names of conditions and replicates
 condList=(Eth Glu)
@@ -73,12 +73,14 @@ done
 source ${rawDataPath}/${TF}_sequenceLength.txt
 trim=$(python3 ${pythonPath}/calculateTrimLength.py ${seqLength})
 
+echo ${TF} trim ${trim}
+
 #Load file names for sequence files
 source ${rawDataPath}/${TF}_seqFiles.txt
 
 if [ ${mapFastq} == 1 ]; then
 	echo "$(date +%T) Unpack tarball to TMPDIR"
-	tar xzvf ${mainPath}/Data/${TF}*rawdata.tar.gz -C ${tmpPath}/
+	#tar xzvf ${mainPath}/Data/${TF}*rawdata.tar.gz -C ${tmpPath}/
 
 	for cond in ${condListWithReps[@]}; do
 		echo "$(date +%T) Map reads with bowtie2 for $cond"
@@ -110,8 +112,8 @@ if [ ${strandSepWigOut} == 1 ]; then
 	done
 	for i in ${condList[@]}; do
 		echo "$(date +%T) ${TF}_${i} combine replicates"
-		python3 ${pythonPath}/combineReplicateWigFiles.py "${tmpPath}/${TF}_${i}1_singlePos_plus.wig" "${tmpPath}/${TF}_${i}2_singlePos_plus.wig" "${outputPath}/${TF}_${i}_plus_singlePos_combRep_${date}.wig"
-		python3 ${pythonPath}/combineReplicateWigFiles.py "${tmpPath}/${TF}_${i}1_singlePos_minus.wig" "${tmpPath}/${TF}_${i}2_singlePos_minus.wig" "${outputPath}/${TF}_${i}_minus_singlePos_combRep_${date}.wig"
+		python3 ${pythonPath}/combineReplicateWigFiles.py "${tmpPath}/${TF}_${i}1_singlePos_plus.wig" "${tmpPath}/${TF}_${i}2_singlePos_plus.wig" "${outputPath}/${TF}_${i}_plus_singlePos_combRep_${date}.wig" "${dataPath}/Filterlist_regions.txt" "${dataPath}/Filterlist_chromosomes.txt"
+		python3 ${pythonPath}/combineReplicateWigFiles.py "${tmpPath}/${TF}_${i}1_singlePos_minus.wig" "${tmpPath}/${TF}_${i}2_singlePos_minus.wig" "${outputPath}/${TF}_${i}_minus_singlePos_combRep_${date}.wig" "${dataPath}/Filterlist_regions.txt" "${dataPath}/Filterlist_chromosomes.txt"
 	done
 fi
 
@@ -126,7 +128,7 @@ if [ ${overlapWigOut} == 1 ]; then
 	for i in ${condList[@]}; do
 		echo "$(date +%T) ${TF}_${i} combine replicates"
 		python3 ${pythonPath}/combineReplicateWigFiles.py "${tmpPath}/${TF}_${i}1_ol.wig" "${tmpPath}/${TF}_${i}2_ol.wig" "${outputPath}/${TF}_${i}_ol_combRep_${date}.wig"
-		echo "$(date +%T) ${TF}_${i} assign data to genes"
+		echo "$(date +%T) ${TF}_${i} assign data to genes" "${dataPath}/Filterlist_regions.txt" "${dataPath}/Filterlist_chromosomes.txt"
 		python3 ${pythonPath}/assignWigDataToGenes.py "${dataPath}/TSSdata.tsv" "${outputPath}/${TF}_${i}_ol_combRep_${date}.wig" "${outputPath}/${TF}_${i}_ol_combRep_geneAssigned_${date}.wigLike"
 	done
 fi
