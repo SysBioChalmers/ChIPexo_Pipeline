@@ -42,7 +42,7 @@ for strand in ['plus','minus']:
 #Load GEM Data
 gemData=pd.read_csv(pathToGEM,sep='\t')
 #select only peaks present int that condition
-gemData=gemData.loc[gemData.loc[:,'Cond'+cond+'_Present']>0,'Position']
+gemData=gemData.loc[gemData.loc[:,'Cond'+cond+'_IP']/gemData.loc[:,'Cond'+cond+'_Expectd']>2,'Position']
 if len(gemData)>0:
     gemData=[['chr'+x[0],int(x[1])] for x in [[x for x in line.split(':')] for line in gemData] if 'chr'+x[0] in TFData['plus'].keys()]
     
