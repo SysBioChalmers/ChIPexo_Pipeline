@@ -40,10 +40,10 @@ if os.path.isfile(pathToGEM):
         for gene in TSSData:
             if selChr==gene[1] and abs(selPos-int(gene[2]))<=1000:
                 for cond in condList:
-                    if gemData.iloc[i][cond+'_IP']/gemData.iloc[i][cond+'_Expectd']>2:
-                        outputDataDetailed.loc[len(outputDataDetailed)+1]=[gene[0],selChr,selPos,gene[3],abs(selPos-int(gene[2])),gemData.iloc[i]['Cond'+cond+'_IP']/gemData.iloc[i][cond+'_Expectd'],cond]
+                    if gemData.iloc[i]['Cond'+cond+'_IP']/gemData.iloc[i]['Cond'+cond+'_Expectd']>2:
+                        outputDataDetailed.loc[len(outputDataDetailed)+1]=[gene[0],selChr,selPos,gene[3],abs(selPos-int(gene[2])),gemData.iloc[i]['Cond'+cond+'_IP']/gemData.iloc[i]['Cond'+cond+'_Expectd'],cond]
                         outputData.loc[gene[0],cond]+=gemData.iloc[i]['Cond'+cond+'_Present']
-                        outputDataSNR.loc[gene[0],cond]+=gemData.iloc[i]['Cond'+cond+'_IP']/gemData.iloc[i][cond+'_Expectd']
+                        outputDataSNR.loc[gene[0],cond]+=gemData.iloc[i]['Cond'+cond+'_IP']/gemData.iloc[i]['Cond'+cond+'_Expectd']
 
     outputData=outputData.loc[outputData.sum(axis=1)>0]
     outputDataSNR=outputDataSNR.loc[outputDataSNR.sum(axis=1)>0]
