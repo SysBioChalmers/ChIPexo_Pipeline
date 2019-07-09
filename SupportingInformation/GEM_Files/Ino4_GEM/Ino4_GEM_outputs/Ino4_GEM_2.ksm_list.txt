@@ -1,3 +1,0 @@
-Ino4_GEM_2.m0	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Ino4_GEM/Ino4_GEM_outputs/Ino4_GEM_2.m0.KSM.txt
-Ino4_GEM_2.m1	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Ino4_GEM/Ino4_GEM_outputs/Ino4_GEM_2.m1.KSM.txt
-Ino4_GEM_2.m2	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Ino4_GEM/Ino4_GEM_outputs/Ino4_GEM_2.m2.KSM.txt

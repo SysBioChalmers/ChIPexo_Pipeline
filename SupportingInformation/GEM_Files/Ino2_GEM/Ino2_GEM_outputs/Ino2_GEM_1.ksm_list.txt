@@ -1,5 +1,0 @@
-Ino2_GEM_1.m0	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Ino2_GEM/Ino2_GEM_outputs/Ino2_GEM_1.m0.KSM.txt
-Ino2_GEM_1.m1	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Ino2_GEM/Ino2_GEM_outputs/Ino2_GEM_1.m1.KSM.txt
-Ino2_GEM_1.m2	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Ino2_GEM/Ino2_GEM_outputs/Ino2_GEM_1.m2.KSM.txt
-Ino2_GEM_1.m3	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Ino2_GEM/Ino2_GEM_outputs/Ino2_GEM_1.m3.KSM.txt
-Ino2_GEM_1.m4	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Ino2_GEM/Ino2_GEM_outputs/Ino2_GEM_1.m4.KSM.txt

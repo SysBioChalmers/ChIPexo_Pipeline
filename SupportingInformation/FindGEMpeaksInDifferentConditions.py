@@ -31,7 +31,7 @@ for selectedTF in selectedTFs:
     otherTFs=[x for x in TFList if x != selectedTF]
 
     #STEP 1: Get peaks for selected TF
-    gemDataSelectedTF=pd.read_csv(pathToGEM+selectedTF+'_GEM/'+selectedTF+'_GEM.GEM_events.txt',sep='\t')
+    gemDataSelectedTF=pd.read_csv(pathToGEM+selectedTF+'_GEM.GEM_events.txt',sep='\t')
     
     #Split into basis and other condition
     #take only peaks with SNR >2 in basis Condition
@@ -75,7 +75,7 @@ for selectedTF in selectedTFs:
             
     for otherTF in otherTFs:
         #load GEM data and get only selected condition
-        gemDataOtherTF=pd.read_csv(pathToGEM+otherTF+'_GEM/'+otherTF+'_GEM.GEM_events.txt',sep='\t')
+        gemDataOtherTF=pd.read_csv(pathToGEM+otherTF+'_GEM.GEM_events.txt',sep='\t')
         #take only peaks with SNR >2
         gemDataOtherTF=gemDataOtherTF.loc[gemDataOtherTF.loc[:,'Cond'+conditionBasis+'_IP']/gemDataOtherTF.loc[:,'Cond'+conditionBasis+'_Expectd']>2,'Position']
             

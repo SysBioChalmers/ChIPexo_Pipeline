@@ -26,7 +26,7 @@ peakCounts=[]
 
 for tf in TFList:
     #load GEM data and get only selected condition
-    gemData=pd.read_csv(pathToGEM+tf+'_GEM/'+tf+'_GEM.GEM_events.txt',sep='\t')
+    gemData=pd.read_csv(pathToGEM+tf+'_GEM.GEM_events.txt',sep='\t')
     #take only peaks with SNR >2
     gemData=gemData.loc[gemData.loc[:,'CondGlu_IP']/gemData.loc[:,'CondGlu_Expectd']>2,'Position']
     peakCounts.append(len(gemData))
@@ -87,7 +87,7 @@ for chrTMP in gemCluster.keys():
 
 for tf in TFList:
     #load GEM data and get only selected condition
-    gemData=pd.read_csv(pathToGEM+tf+'_GEM/'+tf+'_GEM.GEM_events.txt',sep='\t')
+    gemData=pd.read_csv(pathToGEM+tf+'_GEM.GEM_events.txt',sep='\t')
     #take only peaks with SNR >2
     gemData=gemData.loc[gemData.loc[:,'CondGlu_IP']/gemData.loc[:,'CondGlu_Expectd']>2,'Position']
     

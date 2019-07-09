@@ -1,9 +1,0 @@
-Gcn4_GEM_2.m0	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Gcn4_GEM/Gcn4_GEM_outputs/Gcn4_GEM_2.m0.KSM.txt
-Gcn4_GEM_2.m1	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Gcn4_GEM/Gcn4_GEM_outputs/Gcn4_GEM_2.m1.KSM.txt
-Gcn4_GEM_2.m2	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Gcn4_GEM/Gcn4_GEM_outputs/Gcn4_GEM_2.m2.KSM.txt
-Gcn4_GEM_2.m3	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Gcn4_GEM/Gcn4_GEM_outputs/Gcn4_GEM_2.m3.KSM.txt
-Gcn4_GEM_2.m4	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Gcn4_GEM/Gcn4_GEM_outputs/Gcn4_GEM_2.m4.KSM.txt
-Gcn4_GEM_2.m5	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Gcn4_GEM/Gcn4_GEM_outputs/Gcn4_GEM_2.m5.KSM.txt
-Gcn4_GEM_2.m6	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Gcn4_GEM/Gcn4_GEM_outputs/Gcn4_GEM_2.m6.KSM.txt
-Gcn4_GEM_2.m7	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Gcn4_GEM/Gcn4_GEM_outputs/Gcn4_GEM_2.m7.KSM.txt
-Gcn4_GEM_2.m8	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Gcn4_GEM/Gcn4_GEM_outputs/Gcn4_GEM_2.m8.KSM.txt
