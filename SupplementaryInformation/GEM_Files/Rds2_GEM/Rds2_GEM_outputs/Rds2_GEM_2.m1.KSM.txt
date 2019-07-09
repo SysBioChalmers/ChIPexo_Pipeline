@@ -1,0 +1,552 @@
+#Rds2_GEM_2.m1
+#KSM version: 1
+#1092/1092
+#1.10
+#k-mer/r.c.        	Offset	PosCt	wPosCt	NegCt	HgpLg10	CIDs	PosHits (base85 encoding)	NegHits (base85 encoding)
+AAGAGGAAG/CTTCCTCTT	0	17	17	3	-3.5	*	z+92BA!!!9)zzzz5QCca!!&)\zzz!!E9%zzz!!%Zqzzz!!E9%zz!!%NL&-)\1!!iQ)z&-)\1zz!.Y%Lz!$D~	zzz&-)\1zzzzzzzzzz!!!!)zzzzzzzzzz!!i~
+AANAAAAGAG/CTCTTTTNTT	6	14	16	1	-5.1	-0,-1,-2	N.A.	N.A.
+GAAAAANAAA/TTTNTTTTTC	5	16	16	2	-4.2	3,-4	N.A.	N.A.
+AGAGGAAGA/TCTTCCTCT	1	16	16	2	-3.9	*	zz!!!9)zzzzz!!&)\zzz!!E9%zzz!$Hpqz!!%NLzz!"],1z!!%NL&-)\1!!iQ)z&-)\1zz!.Y%Lz!!!-~	zzz&-)\1zzzzzzzzzzzzzzzzzzzzz!!i~
+GAAGAGGAA/TTCCTCTTC	-1	16	16	2	-3.9	*	zz!!!9)zzz!!!!1z!!&)\z!!!!#z!$hOEzzz!!%ZQz!"],1zzzz!!%NL&-)\1!!iQ)!'gMa&-~	zzz&-)\1zzzzzzzzzz!!!!)~
+AAAGAAAAA/TTTTTCTTT	1	15	15	6	-1.9	*	z!!#Oi5QCca!!!!%zzzz!!J)Xzz!!!"Lz!!",A!!E9%!!!-%zzzzzzzz!!#7azzzzJ,fQL!'gMaz!!#7~	zzz!!!9)zzzzzz!'gMazzzzzzz&-)\1zzzz!$D7Azzz!!!"Lzzzzz!!%N~
+ANAAAAAGAG/CTCTTTTTNT	6	14	14	2	-3.6	5,-6,-2	N.A.	N.A.
+AAAAGAGNAA/TTNCTCTTTT	9	15	14	0	-5.1	-7,8,-9,-10	N.A.	N.A.
+AAAAANAGAG/CTCTNTTTTT	6	13	13	3	-2.7	11,-2	N.A.	N.A.
+GNAAAANAAAA/TTTTNTTTTNC	5	13	13	1	-4.2	-12,-13,14	N.A.	N.A.
+GAAAAAAANA/TNTTTTTTTC	5	13	13	3	-2.7	-4,-15	N.A.	N.A.
+CGGAANAAAA/TTTTNTTCCG	2	12	13	2	-3.3	-16,17,-18	N.A.	N.A.
+AAAAAAGAG/CTCTTTTTT	7	12	12	4	-2.0	*	z!!!9)zzJKOpmzz!!!!"zz!!!!1+FjFlzz!!!"Lzzzzzz!!!!azzzzzzzzzz!!Ei~	zzzzzzzzz!!!-%zzzzzzzzzzz!!!!a!!!'#zzzzzzzzz!!#7~
+AAAAGAGAG/CTCTCTTTT	6	12	12	5	-1.6	*	!!!!#!$D7A!!!!%zzz!0@0\zzzzzzz+92Clzzz!WW3#zzzzz!<<*"zz!<<*"!!!!%z!!3~	zz!!!9)zzzz5QCca!!!Q1zzzzzzzzzz!!!!az!!!!a~
+AGGANAAAAA/TTTTTNTCCT	2	11	12	2	-3.1	19,-20	N.A.	N.A.
+GAANAAGAAA/TTTCTTNTTC	5	12	12	0	-4.5	-21,3	N.A.	N.A.
+GANAAAGAAA/TTTCTTTNTC	5	12	12	1	-3.9	3,22	N.A.	N.A.
+AGAAGAGGA/TCCTCTTCT	-2	12	12	2	-3.1	*	zz!!!9)zzzzz!!!Q1z!!!!#z!$hOEz#QOi)z!!%ZPzz+92BAzzz!!%NLz!!iQ)z!!E~	zzz&-)\1zzzzzzzzzz!!!!)~
+GAANAANAANAA/TTNTTNTTNTTC	5	12	12	2	-3.1	-23,-24,25	N.A.	N.A.
+CGGAACAAA/TTTGTTCCG	2	12	12	1	-4.5	*	(^'g=zzzzzJ,fQLzz+92BAzzz![%ICzzzzzzzzzzz!!!Q1zzz"98E%+92BAz!!3E~	zzzzzzzzzzzzzzzzzzzzzzzzzzzz!!%N~
+GAAGAAGAG/CTCTTCTTC	-4	11	11	3	-2.2	*	zz!!!9)z"98E%!!3-#zz!!!Q1zzz!!E9%zz"98E%!!%ZPzz+92BA!!!!#zzzz!!i~	zzz!"],1zzzzzzzzzzzzzz!'gMazzzzz&-~
+GAAAAAGAG/CTCTTTTTC	4	11	11	3	-2.2	*	!!!!#!$D7Azz!!!9)zzz!"&]+zzzzzzzzzz!'gMazz!!3-#zzzz!!iQ)zzz!!!!I#Q~	zzzzzzzz!!!Q1zzzzzzzz!.Y%M~
+GAGGAAAAA/TTTTTCCTC	1	11	11	2	-2.8	*	zz!!#7a&3p3qzzzzzz!!!'#!"],1zzz5QCcazzzzzzzz!!!!1!!#7a!!*'"!!!$"zJ,~	zzzzzz!!E9%zzzzzzzzzzz!!!!"~
+AAAAAAANANA/TNTNTTTTTTT	6	11	11	2	-2.8	-26,27,-28	N.A.	N.A.
+GAANAAGAANA/TNTTCTTNTTC	5	11	11	2	-2.8	14,-29	N.A.	N.A.
+AAAGAGGAA/TTCCTCTTT	-1	11	11	1	-3.6	*	z+92BAzzzzz:]LIqz!!#7a!<<*"z!!!!1zzz!!!'#z!!!!)zzzzzzzzzzz!.Y%Lz#Ts~	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!3~
+GAGGAAGAA/TTCTTCCTC	2	11	11	4	-1.8	*	zz!!!9)zzzzz!!!Qqzzz!!E9%z#QOi)z!!%NM!!",Az+@#o,zzzzz!!i~	zzz!"],1zzzzzzzzz!"o83zzzzzzzzzzz!!i~
+AAAAAAANAG/CTNTTTTTTT	6	10	10	1	-3.3	30,-2	N.A.	N.A.
+AAANAAAGAG/CTCTTTNTTT	6	10	10	1	-3.3	31,-2	N.A.	N.A.
+AGAAAAGAG/CTCTTTTCT	3	10	10	2	-2.8	*	!WW33zzzzz&-*:Bzzz!!!!"!!!!azzzzzzz!.Y%Lzzz!!!!azzzzzzz!!i~	zz!!!9)zzzzzzzzzzz#Q~
+GGAAGAAGA/TCTTCTTCC	4	10	10	2	-2.5	*	zz!!!9)zzzzz!!!Q1zzz!!E9%zz"98E%!!%NMzz+92BA!!!!#zzzz!!iQ)zz!!%N~	zzz!"],1zzzz!!!Q~
+CGGAACAANA/TNTTGTTCCG	2	8	10	1	-3.3	-16,-32	N.A.	N.A.
+AANGAAAAAA/TTTTTTCNTT	1	10	10	2	-2.5	-33,-34	N.A.	N.A.
+AAGNAAAGAG/CTCTTTNCTT	3	9	9	1	-3.0	35,-1	N.A.	N.A.
+AGANAAAGAG/CTCTTTNTCT	3	9	9	1	-3.0	36,-6	N.A.	N.A.
+AGANAAAGANA/TNTCTTTNTCT	3	9	9	0	-3.6	37,38	N.A.	N.A.
+AGGAAAAAA/TTTTTTCCT	2	9	9	2	-2.5	*	zzz&-)\1zzzzzz!!!'#!"],1!"],1zzzz"98E%zzzzzz!!E9%z!!*'$z!!!!a~	zzzz5QCcazzzzzzzzzzzzzzzzzzzzzzzzzzzzJ,~
+AAGAAAANAG/CTNTTTTCTT	3	8	9	1	-3.0	-39,-1	N.A.	N.A.
+AAAGAGAAG/CTTCTCTTT	7	9	9	2	-2.0	*	z!!!!"!!3-#zzzz"98E%!!3-#z!!!!1zzzzz!!*'"!!",Azzzzzzz!!iQ)zzzzzz!!!!#~	zzzzzzzzzzzzzzzzzzzzzz!!iQ)zzzz!!%N~
+ANAANAAGAAG/CTTCTTNTTNT	7	9	9	1	-3.0	-40,-41	N.A.	N.A.
+GNAAAAAAAG/CTTTTTTTNC	3	9	9	2	-2.2	42,-43	N.A.	N.A.
+TCGGAAAAA/TTTTTCCGA	2	9	9	2	-2.2	*	zzzzz!!",Az!!!-%zz!!",Az!!!!Azz!!!!"z!!#7aJ,fQLzzzzzzzzz!!!!)zzz!!!'~	zzzzz!!!Q1zzzzzzzzzzzzzzzzzzz!"]~
+GAAAAANAGA/TCTNTTTTTC	4	9	9	2	-2.2	44,-15	N.A.	N.A.
+AAAAAGAGNA/TNCTCTTTTT	8	9	9	0	-3.6	-45,-46	N.A.	N.A.
+AAAAAGNGAA/TTCNCTTTTT	8	9	9	0	-3.6	-45,47	N.A.	N.A.
+AGGAANAANAA/TTNTTNTTCCT	3	9	9	1	-3.0	-48,-49	N.A.	N.A.
+ACAAAAAAA/TTTTTTTGT	5	9	9	4	-1.3	*	zzzzzz5QCcazzz!!!!1zzzzz!!3-#!!!!%zzzzz!!%NLzzz!!!!#z!!!-%zz!!!Q1z!<~	zzzzzzzzz!!!-%zzzzzzzzzzzzzz!.Y%Lzzz!!%f~
+AAAAATATT/AATATTTTT	9	8	8	1	-2.7	*	zzz!!!Q5zzzzz5QF%Lzz!!!!azz!!!!1z!WW3#zzzz!!!"L~	zzzzzzz!!",~
+AAAGAGAGC/GCTCTCTTT	7	8	8	0	-3.3	*	!!!!#z!!!!%!!!$"zz!0@0\zz!!!!1zzzzzzzzzzzzzzzzz!<<*"zzz!!#7~	
+AAGAGANAGA/TCTNTCTCTT	2	8	8	1	-2.7	-50,51	N.A.	N.A.
+AAGGAAATA/TATTTCCTT	2	8	8	0	-3.3	*	z5QCcaJ,fQLz!"],1zzzzz!<<*"zzzzzzzzzzzz!!3-#zzzzzz!!!-%!!!!Az#Q~	
+AGAAAGAGA/TCTCTTTCT	5	8	8	2	-2.0	*	zz!!<3$zz!!!!az!!#7azzJ,fQLzzzz!'gMaz!!!!Azzzzzzzzzzzzz!!#7~	zz!<<*"zzzzz!!!$~
+ANAAANAGAAA/TTTCTNTTTNT	4	8	8	0	-3.3	-52,38	N.A.	N.A.
+ANAGAAAGAG/CTCTTTCTNT	3	8	8	0	-3.3	36,31	N.A.	N.A.
+ACAAAAGAG/CTCTTTTGT	7	8	8	1	-3.0	*	z!WW3#!!!Q1z&-)\1#QOi)zzzz+92BAzzzz!$D7Azzzzzzzzzzzzzz!!3-#z!$D~	zzzzzzzzzzzzzzz!!E~
+GGAAAAANAG/CTNTTTTTCC	3	8	8	1	-2.7	-43,53	N.A.	N.A.
+AAAGAGNAAG/CTTNCTCTTT	-1	8	8	0	-3.3	-54,-55	N.A.	N.A.
+GGANAAAAAG/CTTTTTNTCC	3	8	8	1	-2.7	56,-43	N.A.	N.A.
+GAAAAAGNGA/TCNCTTTTTC	4	8	8	1	-2.7	-57,44	N.A.	N.A.
+GAGAAAGANA/TNTCTTTCTC	4	8	8	1	-2.7	-58,22	N.A.	N.A.
+GANAAAGAGA/TCTCTTTNTC	4	8	8	1	-2.7	44,-58	N.A.	N.A.
+GGAGGAAAA/TTTTCCTCC	0	8	8	1	-2.7	*	zzz!($Yczzzz!<<*"z!!!'#zzzzzzzzzzz!<<*"z!!!!1z!!*'"zzJ,~	zzzzzzzzzzzzz!!!!A~
+TANAAAAATA/TATTTTTNTA	6	7	8	0	-3.3	-59,-60	N.A.	N.A.
+AAAAAGGGA/TCCCTTTTT	8	8	8	0	-3.3	*	zzzzzzzzzz!'gMa!!!"Lzz"98E5zzz#QOi)zzzzz!!!"Lz!!!Q1zzz!!*~	
+AATAAAAGA/TCTTTTATT	-1	8	8	1	-2.7	*	zzzzzzzzzz!!",A!!iQ)z!!kgi!$D7Azzzzzzzz!$D7Azzzzzzz!<E~	zzzzzzzzzzzzzzzz5Q~
+AAGAAAAGA/TCTTTTCTT	3	8	8	3	-1.5	*	!WW3#zzzzz!!!Q1zzzz!!!!az#QOi)zzzzzzz!.Y%Lzzzzzz!!%NLzz!!i]~	zzzz!"],1zzzzzJ,fQLzzzzzzzzzzz!!!$~
+GGAAGANGAA/TTCNTCTTCC	4	8	8	1	-2.7	-61,-62	N.A.	N.A.
+ACGGAACAA/TTGTTCCGT	1	8	8	0	-3.9	*	&-)\1!!!!)zzzzzzzzzzz!$D7Azzz!!3-#zzz5QCic!!%NLzzzzzz"9~	
+AGGAGAANAA/TTNTTCTCCT	3	8	8	1	-2.7	-63,-20	N.A.	N.A.
+AAAAAAGTA/TACTTTTTT	9	7	7	1	-2.4	*	zzzzzzz!!!-%zzzzzzz!!!9)z!!!"LzzzzJ,fWNzz!!%NLzzz#Q~	zzzzJ,~
+AAAAAANAGNA/TNCTNTTTTTT	7	7	7	0	-3.0	64,-65	N.A.	N.A.
+AAAAAGAGG/CCTCTTTTT	6	7	7	2	-1.7	*	!!!!)zzzzz5QCcaz!!iQ)zzzzzzzzzzzzzzzzzz!!iQ)zzz!!!!)#Qt~	zzzzzzzzz!!!-%zzzzzzz!.Y~
+AAAAANAGTA/TACTNTTTTT	8	7	7	0	-3.0	66,-46	N.A.	N.A.
+AAAGAAACT/AGTTTCTTT	8	7	7	2	-1.7	*	+92BAzzzzzzz!!!?+!!3-#zzz#QOi)!!!Q1zzzzzzzzzzzzzzz!<~	z!!!9)zzzzzzzzzzz!!3~
+AAANAAAANTA/TANTTTTNTTT	7	7	7	0	-3.0	-67,64	N.A.	N.A.
+AAGAAAGAG/CTCTTTCTT	4	7	7	2	-1.7	*	zzzzz!!!!az!!#7azzJ,fQLz!!!9)zzzzzzzzz!!#7azzzzzzzz!!#7az5Q~	zz!<<*"zzz!!!!%~
+AGAAAGAGT/ACTCTTTCT	5	7	7	1	-2.4	*	zzzzzzzzzzzz!!!9+zzz5QCcazzzz!.Y%N!!#7azz!!%N~	zzzzzzzzzzzzzzzzz!W~
+AGAGGNAAAA/TTTTNCCTCT	1	7	7	0	-3.0	68,-69	N.A.	N.A.
+AGGAAATAT/ATATTTCCT	3	7	7	0	-3.0	*	zz+92BA#QOi)!"],1zzzzzzzzzzzzzzz5QCca!!3-#z!!3-#zzzzzzz!!!!A~	
+AGGAANAACT/AGTTNTTCCT	2	7	7	0	-3.0	70,71	N.A.	N.A.
+ANAAAAGAGT/ACTCTTTTNT	7	6	7	0	-3.0	72,73	N.A.	N.A.
+ANANAAAGAGA/TCTCTTTNTNT	3	7	7	0	-3.0	37,-28	N.A.	N.A.
+GAGGAAAAT/ATTTTCCTC	1	7	7	1	-2.4	*	zzz!!3-#zz!'gMaz!<<*"zz!!!-%!!!!1zzzzzzzzz!<<*"z!!!Q~	zzzzzzzzzzzzzzzzzzzzz!!i~
+AAGAGAAAG/CTTTCTCTT	2	7	7	2	-1.7	*	z!!!9)!!<3$z!!!9)zzzzzzz!!!Q1zz!'gMazzzz!!",~	zzzzzzzz!!3-#zzzzzzzzzzzzzzzz!!!!1~
+GNAAAAGAGA/TCTCTTTTNC	4	7	7	1	-2.4	-74,44	N.A.	N.A.
+ATAAAAATA/TATTTTTAT	7	7	7	0	-3.0	*	zzzz!!!!Azzz!"],15QCcaz!!iQ)zzzzzzzzzz!!!"L!!*'"+9~	
+AAAATCGGA/TCCGATTTT	8	7	7	2	-2.0	*	"98E%zz!!!'#zzzzz!!!!"zzzzzzzzzzzz!!!!1!!!!)zz!!!!1zz!!!!"~	zzzzzzzzzzzzzzzzzz!"],1zzzz!!!Q~
+GAAAAGAGA/TCTCTTTTC	5	7	7	2	-2.0	*	!WW33zzzzz!0@0\zzzzzzzzz!!*'"zzzzz!!3-#zzzz!<~	zz!!!9)zzzzzzzzzzz#Q~
+AAAGNAAAGA/TCTTTNCTTT	2	6	7	0	-3.0	75,-76	N.A.	N.A.
+AAAAGAGCA/TGCTCTTTT	9	7	7	0	-3.0	*	z"98E%zzzz&-*7AzzzzzzzJ,fQLzzzzzzzzzzzzz&-)\1zz"Fp~	
+GGANAAAAANA/TNTTTTTNTCC	4	7	7	1	-2.4	-12,77	N.A.	N.A.
+GGANAAANAAA/TTTNTTTNTCC	4	7	7	1	-2.4	-12,78	N.A.	N.A.
+AAGNAAAAAA/TTTTTTNCTT	1	7	7	0	-3.0	-33,-79	N.A.	N.A.
+AAAAAANAGT/ACTNTTTTTT	7	6	6	0	-2.7	72,80	N.A.	N.A.
+AAAAGAGTA/TACTCTTTT	9	6	6	0	-2.7	*	zzzzJ-Z,T#QOi)z!!!!"zzzz!!#7azzzzzzzzz!!3~	
+AAAAGANNAAT/ATTNNTCTTTT	9	6	6	0	-2.7	81,82	N.A.	N.A.
+AAAANAGTAA/TTACTNTTTT	9	6	6	0	-2.7	8,83	N.A.	N.A.
+AAAGNAANAAA/TTTNTTNCTTT	0	6	6	0	-2.7	84,-85	N.A.	N.A.
+AAANNAAAANAA/TTNTTTTNNTTT	0	6	6	0	-2.7	-86,87	N.A.	N.A.
+AAATCAAAG/CTTTGATTT	8	6	6	2	-1.5	*	zz!!!!%zzz!!E9%zzz!!!!Az!!!Q1zzzzzzzzzzzzzzz!!!Q1zzz!!!'~	zzzzzzzzzzzz!!!!#zzzz!!!!1~
+AAGAGGAAT/ATTCCTCTT	3	6	6	0	-2.7	*	zzzzzz!!!!1&-)\1zzzzzzzzzz!"],9zzzzzzz!'gMazzzzzz#Q~	
+AAGGNAAACG/CGTTTNCCTT	2	6	6	0	-2.7	88,89	N.A.	N.A.
+AANGAAANAAA/TTTNTTTCNTT	1	6	6	0	-2.7	84,-90	N.A.	N.A.
+AANTAGAAGA/TCTTCTANTT	-1	6	6	0	-2.7	-91,92	N.A.	N.A.
+AGAAAANAGC/GCTNTTTTCT	3	6	6	0	-2.7	-93,94	N.A.	N.A.
+AGAAGAGAT/ATCTCTTCT	5	6	6	0	-2.7	*	zz!!!9)!!!!Az!!3-#zzzzzz!!E9%zz"98E%!!%N~	
+AGAGAAAGA/TCTTTCTCT	3	6	6	2	-1.5	*	z!!!9)!!<3$zzzzzzzzzzzz!'gMaz!!!!Azz!!",~	zz!!!9)zzzzz!!3~
+AGAGGAAAA/TTTTCCTCT	0	6	6	2	-1.5	*	zz!!#7a&-)\1!!#7azzzzzzz!!!!1zz5QCcazzzzzzzzzzz!!!$~	zzzzzzzzzzzzzzzzzzzz!!E9%zzzzzzzzz!!3~
+AGAGGAATA/TATTCCTCT	4	6	6	1	-2.1	*	zzzz!!%NLz!!!!1&-)\1zzz!!",Azzzzzz!"],1zzzzzzzzzzzzzz#Q~	zzzzzzzzzzzzzzzzzzzzzzzzzzz&-~
+AGGAAAGAG/CTCTTTCCT	3	6	6	1	-2.1	*	!!!$"zzzz!!!$"zzzzzzz!!3-#zz&-)\1J,fQLzzzzzz"9~	zzzzzzzzzzzzzzzz!!!"L~
+ANAAAAGAGG/CCTCTTTTNT	3	6	6	0	-2.7	95,-96	N.A.	N.A.
+ANAANAGAAAG/CTTTCTNTTNT	0	6	6	0	-2.7	-97,98	N.A.	N.A.
+ATAAAAGANA/TNTCTTTTAT	0	6	6	0	-2.7	99,-100	N.A.	N.A.
+ATNAAAATAT/ATATTTTNAT	7	6	6	0	-2.7	-101,-102	N.A.	N.A.
+ATCGGAAAA/TTTTCCGAT	1	6	6	1	-2.4	*	#QOi)zzzz!!",Az!!!-%zzzzzzzzzzJ,fQLzzzz!!!Q1zzzz!!!!)~	zzzzz!!!Q~
+TATAAAAAT/ATTTTTATA	6	6	6	1	-2.1	*	zzzzzzzz!"],15QCcazzzzzzzzz!.Y%Lzzz!!*'"+92BAzzzzzz!!!!)~	zz!!*~
+CAAAAGAGG/CCTCTTTTG	8	6	6	0	-2.7	*	z!WW3#zz&-)\1zz!!#7azzzz!!*'"zzz!!!'#zzzzzzzzzzzzzzz!$D~	
+CGGAAAAANA/TNTTTTTCCG	3	6	6	0	-2.7	103,-18	N.A.	N.A.
+CGGAAAAAT/ATTTTTCCG	3	6	6	0	-2.7	*	zzzzzz+92BAzzz!!",AzzzzzzzJ,fQLzzzzzzzzz!!!!)zzz!!!'#J,~	
+CNGAAAAAAA/TTTTTTTCNG	1	6	6	0	-2.7	104,-18	N.A.	N.A.
+GGAAAAGAG/CTCTTTTCC	4	6	6	1	-2.1	*	zzzzzz!"],1!!!"Lzzzzzzzz!!*'"zzzzz!!3-#zz!!!9)zzzzzzz!!!!)~	zzzzzzzzzzzzzzzzzzzzzzzzzzzz!!#7~
+GAAAGAGAG/CTCTCTTTC	5	6	6	0	-2.7	*	zz!!*'"zzz!!!$"zzzzzz!!3-#zz&-)\1zzzzzzzzzzzz!!!!%z!!#7~	
+GAGAAAGAG/CTCTTTCTC	4	6	6	1	-2.1	*	zz!!<3$zzzzzzzzzzzz!'gMa5QCca!!!!Azz!!",~	zzzzzzzzzzzz!!#7~
+AAAAAGAGC/GCTCTTTTT	8	6	6	1	-2.1	*	zzzz!$D7Azzzzzz!.Y%Lzzzzzzz!'gMaz!!!!azzzzzz&-)\1zz"9~	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!#7~
+GGAAAAACT/AGTTTTTCC	3	6	6	1	-2.1	*	zz!!#7a!'gMaz!!",Azzzzzzzzz5QCcaz!!#7azzzzzz!!!!1~	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz&-~
+GGAGNAAAAT/ATTTTNCTCC	0	6	6	0	-2.7	105,106	N.A.	N.A.
+AAGAGGAAC/GTTCCTCTT	-1	6	6	2	-1.5	*	zzzzzzzzz!!#7a!!!!#zzzzzzzzzzzzz!.Y%L!!iQ)zzzzzz#QOi)!"]~	zzzzzzzzzzzzzzzzzz+92BAzzzzzzzzzzzzzz!!!$~
+AAANAGAAGA/TCTTCTNTTT	-1	6	6	0	-2.7	-91,-107	N.A.	N.A.
+TNAAAAGAGA/TCTCTTTTNA	4	6	6	0	-2.7	108,109	N.A.	N.A.
+TTNAAAGAGA/TCTCTTTNAA	4	6	6	0	-2.7	108,110	N.A.	N.A.
+AAGTTTAAA/TTTAAACTT	-4	6	6	0	-2.7	*	zzzz!!!!Azzzzzzzz!!!!I!!!!az!.Y%Lzzz!!!9~	
+AGGAGGAAA/TTTCCTCCT	0	6	6	0	-2.7	*	zzzzzzzz!<<*"zzzzz"98E%zzz!!!!Azzzzzzzz!!!!1zJ,fS"~	
+AAGAGGAAA/TTTCCTCTT	0	6	6	2	-1.5	*	zzzzzzz!$D7Azz!<<*"z!$D7Qzzz!!!'#zz!!!Q~	zzzzzzzzzzzzzzzzzzzzz!WW3#zzzzzzzz!!3~
+CGGAAAAAA/TTTTTTCCG	3	6	6	0	-3.0	*	"98E%zzzzzz!!!-%zzzz!!!!Azz!!!!"zzzzzz!!!'#zzzzzzzz!!!!a~	
+ANGNAAAAAAA/TTTTTTTNCNT	1	5	6	0	-2.7	-90,-48	N.A.	N.A.
+AAAAAATAG/CTATTTTTT	5	5	5	1	-1.8	*	zzzz+92BAz!!!!#zzzzzz5QCcazzzzzzzzzz!!!!#zz!!%N~	zzzzzzzzzzzz!!!!A~
+AAAAGAAAC/GTTTCTTTT	7	5	5	1	-1.8	*	+92BAz!!!!1zzzzzz!!3-#zzz#QOi)!!!Q~	z!!!9~
+AAACAATAA/TTATTGTTT	9	5	5	1	-1.8	*	zzzzzzzz!$D7Azzzzzz!!",Azzzzz!!!!az+92BA!'g~	zzzzzzzzzzzzzzzzzzzz#Q~
+ACCGGAAAA/TTTTCCGGT	1	5	5	0	-2.4	*	zzzzzzzzzzzzzz!!%NLzzzzzzzzzzzzz!!#7a!!3-#z!!!!)zJ,~	
+AGGAAAAAC/GTTTTTCCT	2	5	5	0	-2.4	*	zz!!#7a!'gMazzzzzzzzzzz5QCcazzzzzzzz!!!!1!!#7~	
+AGGAAAACG/CGTTTTCCT	3	5	5	0	-2.4	*	z!!!!%!!",Azzzzz!!*'"zzzzzz#QOi)zzzzzz!W~	
+AAGAAAACT/AGTTTTCTT	3	5	5	1	-1.8	*	zzzzzzzzzzzzzzzzzzzzz!<<*"zzzz!.Y%Lzzz!$DCG~	zzzzzzzz!$D~
+ATAAAAGAA/TTCTTTTAT	0	5	5	0	-2.4	*	zzzzzzzzzzJ,fQLz!!!9)!!iQ)zzzzzzzzz!$D7Azzzzzzz!<~	
+ATATAAAAT/ATTTTATAT	5	5	5	1	-1.8	*	zzzzzz!WW3#!WW3#zzzzzzzzzzzzz+92BAzzzz!!!!1zzzz!!!!%~	zzzzzzzzzzzzzzzzzzzzzzz5Q~
+TAAAAATAT/ATATTTTTA	8	5	5	1	-1.8	*	zzzzzzz!!*'"z5QCcazzzzz!!!!1zzzzzz!!!"L!!*~	zzzzzzzzzzzzzzzzzzzzzzzzz!W~
+ATTACAAAA/TTTTGTAAT	2	5	5	0	-2.4	*	zzzzzzzz#QOi)z#QOi)zz!!!9)z!$D7A!!3~	
+AAGCAAAAT/ATTTTGCTT	5	5	5	1	-1.8	*	zzzzzzzJ,fQLz!$D7Azzzz!!3-#zzzzzz&-)\1zzzzzzzz!!E~	zzzzzzzzzzzzzzzzzzzz#Q~
+CAAAAGAGT/ACTCTTTTG	8	5	5	0	-2.7	*	zz!!!Q1zz#QOi)zzzz+92rQzzzz!!!!#~	
+AAGAGATAG/CTATCTCTT	-2	5	5	1	-1.8	*	zzzzzzz+92BAzzz5QCca!!E9%zzz!!%NLzzzzzzzzJ,~	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!)~
+CAAAAAGAG/CTCTTTTTG	5	5	5	1	-1.8	*	zz!!!!%zzz5QCcazzzzzzz+92BAzzzzzzzzzzzzzzzz"98E%!!!!#~	zzzz#Q~
+AAATAAAAG/CTTTTATTT	9	5	5	0	-2.4	*	zzzzzzzzzz!!",A!!iQ)zz!$D7A!!!-%zzzzzzzzzzzzzzz!!*~	
+GGAGAAAAG/CTTTTCTCC	1	5	5	1	-1.8	*	zzzzzzzzzzzzzz!!!-%z!!!"Lzzz!!!!1zzzzz!!%NT~	zzzzz!!!$~
+GAAAAAAGC/GCTTTTTTC	3	5	5	1	-1.8	*	zzzzzzzz!$D7Azzz!!*'"zzzzzzzzzzz!!#7az!!iQ)zzzzz!!#7~	zzzzzzzzzzzzzzz!!!9~
+GAAAAGAGT/ACTCTTTTC	5	5	5	1	-1.8	*	zzzzzzz!!!"Lzzz!!!!a!!#7azzzzzz!.Y%Lz!!E~	zzzzzzzzzzzzzzzzzzz!!!Q~
+GAACAAATC/GATTTGTTC	4	5	5	1	-2.1	*	#Qt,-zzzzzzzz!!!'#!.Y%Lzzzzzzzzzzzzzzzzzz!!!!a~	zzz!!!-~
+GGAAAAAGA/TCTTTTTCC	4	5	5	0	-2.4	*	zzzz!!!9)zzzzzzzzzzzzzzzzzzzzzzzzJ,fQLz!!!!I!!#7~	
+GGAACAAAC/GTTTGTTCC	3	5	5	0	-2.4	*	zzzzz!!#7aJ,fQLzzzzzzzzzzzzz!!!-%zzzz!!!Q1zzzzzz!!3~	
+TAAAAATAA/TTATTTTTA	8	5	5	1	-1.8	*	!!!9)zzzzzzz!"],1zz!!iQ)zzzzzzzz+92BAzzz+9~	zzzz!!!!A~
+TAAAAGAGA/TCTCTTTTA	5	5	5	1	-1.8	*	zzJ-5iPzzzzzzzzzzzzzz!WW3#!WW3#zzzz!!!!#~	zzzzzzzzzzzzzzzzzzz!!!!a~
+TAAGAATAA/TTATTCTTA	7	5	5	1	-2.1	*	!!!!az!!%NLzzzzzzzzzzzzzzzzzz!!3-#zz!!!!a"9~	zzzzzzzzzzzzz&-~
+TAATAAAAG/CTTTTATTA	-2	5	5	1	-1.8	*	zzzzzzzzzzzzz!!kgizzz!<<*"zzzzz!$D7Azzzzzzz!<~	zzzzz!!3~
+GAAAGAGGA/TCCTCTTTC	-2	5	5	1	-1.8	*	zzzzz!$D7Az:]LIqzz!<<*"zzzzzzzzzzzzzzzzzzz!.Y~	zzzzzzzzzzzzzzzzzzzz!!",~
+AAGAAAACA/TGTTTTCTT	2	5	5	2	-1.5	*	&-)\1zz!!!!Azzzzzzzzzzzzzzzzzzzzz+92BAz&-)\1zzzz&-~	zzzzzzzzzzzz!!!!1zz!<~
+AAAAANAGANA/TNTCTNTTTTT	6	5	5	0	-2.4	-28,-52	N.A.	N.A.
+AATGAGGAA/TTCCTCATT	-2	5	5	0	-2.4	*	zzzzzzzzzzzJ,fQLzzzzzz!!!9)+92BAzzzz!!!Q1zzzz#Q~	
+CAAGAGGAA/TTCCTCTTG	-1	5	5	1	-1.8	*	zzzzzzz!$D7Azzzzzzzzzzz!!!Q1!!E9%zzz!.Y%Lzzzzzzzz!"]~	zzzzzzzzzzzzzzzzzzzzzzzzz!!i~
+AATCAGGAA/TTCCTGATT	-1	5	5	0	-2.4	*	zzzzzz!!,=bzzzz!!!!E!!!!%~	
+GAGGAACAA/TTGTTCCTC	1	5	5	1	-1.8	*	zzzzz!!#7azzzzzzzzzzzz!!!9)z!!!-%z&-)\1zzzzz!!!!%~	zzzzzzzzzz!<~
+TTTAAAGTT/AACTTTAAA	0	5	5	1	-1.8	*	!!!9)zzzzzzzzzzzzzzzzzzzzzzzz!!!9)zzzz!<<*"5QL~	zzzzzzzzzzzzzzzzzzzzzzzzzzz!!E~
+GAAAGTAAA/TTTACTTTC	1	5	5	1	-1.8	*	zzzzzz!!iQ)!!E9%zz!'gMa!!!!#zzzzzzzzzzzzzzzzz!!%N~	zzzzzzzzzzzzzzz!!!-~
+CGAGGAAAA/TTTTCCTCG	0	5	5	1	-1.8	*	zzzzzzzz!!*'"zz!"],1zzzzz!!!"Lzzzz!!!!#zz!!#7~	zzzzzzzzzzzzzzzzzzzzz!!i~
+GGAACAAAA/TTTTGTTCC	3	5	5	2	-1.5	*	&-)\1zzzzzzzz+92BAzzz!WW3#zzzzzzzzzzzzzzz"98E%zz!!!9~	zzzzzzzzzzzzz!!!9)zzzzzzzzzzzzzz!!%N~
+CCGGAAAAA/TTTTTCCGG	2	5	5	1	-1.8	*	zzzzzz+92BAzzzzzzzz#QOi)zzzzzz!!!'#zzzzzzzz!!!!)zJ,~	zzzzzzzzzzzzzzzzzzzzzzzz!!#7~
+AAAAAAGCC/GGCTTTTTT	7	4	4	1	-1.5	*	zzzz!$D7Azzzzzzzzzzz#QOi)zzzzzzz!!#7azzzzz!!i~	zzzzzzzzzzzzzzzzzzz!$D~
+AAAAAATGT/ACATTTTTT	5	4	4	1	-1.5	*	zzz!!!Q1z!!!!)zzzzz!"],1z"9~	zzzzzzzzzzz!!!!%~
+AAAAATGGC/GCCATTTTT	6	4	4	0	-2.1	*	zzzzz!.Y%Lzzz!!!$"zzzzzzzzzzzzzzz!!E9%z!!!!#~	
+AAAAGAGTG/CACTCTTTT	6	4	4	1	-1.8	*	zz!!!Q1zzzz!!!"Lzzz!!!!azzzzzzzzz!!E~	zzzzzzzzzzzzzzzzzzz!!!Q~
+AAAATAAAC/GTTTATTTT	5	4	4	1	-1.5	*	zzzzzzzzzzzzzzzzzz!!E9%zzz!!!!"!<<*"zzzzzz!!3~	zzzzzz5Q~
+AAAATGGAA/TTCCATTTT	-1	4	4	0	-2.1	*	zzzzzzzzz!!!!)zzzzzz!!iQ)zzzzzzzzzz!WW4N~	
+AAAATGGAG/CTCCATTTT	7	4	4	1	-1.5	*	zzzzzzzz!!3-#zzzzz!!!Q1zzzz!!!9)#Q~	zzzzzzz!!!"L~
+AAAATTAAG/CTTAATTTT	3	4	4	1	-1.5	*	zzzzzzzzzzzz!.Y%Lzzz!.Y%Lz!!!"Lzzzz!!!!)~	zzzzzzzzzzzzzzz!!!!#~
+AAACAACAA/TTGTTGTTT	6	4	4	0	-2.1	*	zzzzz!!E9%zzzzzzzzzzzzzzzzz!!!Q1!.Y%Lzzz!!!!a~	
+AAAGAAGGA/TCCTTCTTT	-2	4	4	1	-1.5	*	zzzz!"],1z"98E'zzzzzzzzzzzzz!"]~	!!",~
+AAAGAGAAT/ATTCTCTTT	7	4	4	1	-1.5	*	zz!!E9%z&-)\1zzzzzzzzz!'gMazz!!!!A~	zzzzzzzzzzzzzzzzzzzzzz!!!!1~
+AAAGAGTTA/TAACTCTTT	6	4	4	0	-2.1	*	!!!$"zzzzzzzzzzzzzzz5QCcazz!.Y%Lzzzzzzzzz!"]~	
+AAAGTAAAG/CTTTACTTT	2	4	4	1	-1.5	*	zzzzzzz!!E9%zzz!!!!#zzzzz!.Y%Lzzzzzzzzzzz!!%N~	zzzzzzzzzzzzzzz!!!-~
+AAATATAAA/TTTATATTT	3	4	4	1	-1.5	*	zzzzzzzzzzzzzzzzzzzzz+92BAz5QLibzzzzzzz!!!!%~	zzzzzzzzzzzzzzzzzzzzzzz!$D~
+AAATCAAAC/GTTTGATTT	6	4	4	0	-2.1	*	zzz!"],1!!*'"zzzzzzzzzzz!'gMa!!i~	
+AAATGGAGA/TCTCCATTT	-2	4	4	1	-1.5	*	zzzzzzzz!!3-#zzzzz!!!Q1zzzz!!!9)zzzzzz#Q~	zzzzzzz!!!"L~
+AACAACAAC/GTTGTTGTT	5	4	4	1	-1.5	*	zzzzz!!E9%zzzzzzzz+92BAzzzzzzzzzzzzz!!!!e~	z!!!!)~
+TTTTGTGTT/AACACAAAA	-2	4	4	0	-2.1	*	zz#QOi)zzzzzzzzzzzzzzzzzzzzzzzzzzz!!3-'zz!'g~	
+AACGGAACA/TGTTCCGTT	0	4	4	1	-2.1	*	zzzzzzzzzzzzzzzzzzzz!!!!)5QCiczzzzzzzzzzz!!!"L~	zzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!A~
+AACTGCAAA/TTTGCAGTT	3	4	4	0	-2.1	*	zzzzzzzzzzzzzzz!!!!#zzzz!!!!"z!!iQ)zz!!!9~	
+AATACAACA/TGTTGTATT	-6	4	4	0	-2.1	*	z5X5;LzzzzzzzzzzzzzzzJ,fQLzzzzzzz&-~	
+AATGAAACA/TGTTTCATT	0	4	4	0	-2.1	*	zz!!iQ)zzzzzzzzJ,fQLzzzzz!!!!)zz5Q~	
+AATTACAAA/TTTGTAATT	1	4	4	1	-1.5	*	zzzzzzzz#QOi)z#QOi)zz!!!9)z!$D~	zzzzzzzJ,~
+ACAAAGCAT/ATGCTTTGT	9	4	4	0	-2.1	*	zzzzzz!!!!)zzzz!!!!Azz!!!9)zzzzzzz&-~	
+GTTTTGTGT/ACACAAAAC	-3	4	4	0	-2.1	*	zz#QOi)zzzzzzzzzzzzzzzzzzzzzzzzz!!!9)z!!!!%zz!'g~	
+ACTAAGAAT/ATTCTTAGT	5	4	4	0	-2.4	*	!!!!az!!%NLzzzzzzzzzzzzzzzzzzzzz!!!!a"9~	
+GAAAAAGCT/AGCTTTTTC	4	4	4	0	-2.1	*	zzzzzz!!!Q1z"98E%zzzzz!!!Q1z!!!!%~	
+AGGAAAATG/CATTTTCCT	2	4	4	1	-1.5	*	zzz!!3-#zz+92BAzzzzzzzzzzzzzzz!<<*"z!!!Q~	zzzzzzzzzzzzzzzzzz!!!$~
+AGGAAATAC/GTATTTCCT	3	4	4	0	-2.1	*	z5QCcaJ,fQLzzzzzzz!<<*"zzzzzzzzzzz!!E~	
+AGGAAGAAC/GTTCTTCCT	3	4	4	1	-1.5	*	zzzzzzzzzzzz!!E9%z#QOi)z!!%NLzzzzzzzzz&-~	zzzzzzzzzzzzz!"]~
+AAAAATTAT/ATAATTTTT	5	4	4	1	-1.5	*	zzzzzzzz!!!%Mzzzzz!$D7Azzzzzzzzzzzzzz!!#7~	zzzz!!*~
+TTAAAATAT/ATATTTTAA	-6	4	4	1	-1.5	*	zzzzzzzzzz5QCcazzzzzzzz!0@0\zzzzzz!!!!A~	zzzzzzzzzzzzzzzzzzzzzz!!!Q~
+ATCAAATCA/TGATTTGAT	-5	4	4	0	-2.1	*	zzzzzz!!*'"zzzz!!!!%zz#QOi)zzzzz"9~	
+ATTATAGAA/TTCTATAAT	-1	4	4	1	-1.5	*	zzzzzzzz!!!$"!!E9%zzzzzz!!!9)zzzzzzzzzzzzzz5Q~	zzzzzzzzzzzzzzzzzzzzzzzzzzz!!E~
+GAATTTTTG/CAAAAATTC	-5	4	4	1	-1.8	*	zzzzzz!!!"Lzzzzzzzzzzzzzz&-)\1zzzzzzzzzzz!!",A"9~	zzzzzzzzzzzzzzz!!%N~
+CATATAAAA/TTTTATATG	4	4	4	0	-2.1	*	zzzzzz!WW3#zzzzJ,fQLzzzzzzzzzzzz+92BAzzzzz!!!!)~	
+AAGAGAATG/CATTCTCTT	2	4	4	1	-1.5	*	zz!!!!A!!E9%zzzzzzzzzz!'gMazzzzzzzzzzzzzzzzz!.Y~	zzzzzzzzzzzzzzzzzzzzzz&-~
+AAAAACCGG/CCGGTTTTT	7	4	4	1	-1.5	*	zzzzzzzzzzzz!"],1zzzzzzz!'gMazzzz!!!-%zz+9~	zzzzzzzzzzzz!!!"L~
+CTAAGAATA/TATTCTTAG	6	4	4	0	-2.4	*	!!!!az!!%NLzzzzzzzzzzzzzzzzzzzzz!!!!a"9~	
+ATGAAACAG/CTGTTTCAT	1	4	4	1	-1.5	*	z!!iQ)zzzzzzzzzzzzzzz!!!!)zz5QCcazzzzzzzzz!!!!)~	zzzzzzzzzzzzzzzzzz!!!!a~
+CTGTTTCTC/GAGAAACAG	-3	4	4	1	-1.5	*	zzzzzz!!!$"zzzzzzzzzz5QCcazzzzzzz!!!!"z!!!!1~	zzzzzzzzzzzz"9~
+AGAGGAAAG/CTTTCCTCT	1	4	4	1	-1.5	*	zzzz+92BAzzzzz!!E9%!!*'"!$D~	zzzzzzzzzzzzzzzzzzzzz!W~
+GAAAAAGGG/CCCTTTTTC	4	4	4	1	-1.5	*	zzzzzzzzzzz!!!"Lzz"98E5zzz#Q~	!"]~
+GAAAACCAT/ATGGTTTTC	4	4	4	0	-2.1	*	zzzzzz!$D7Azzz!!#7azzzzzz!!!"Lzzzzzz#Q~	
+GAAAAGAGG/CCTCTTTTC	4	4	4	0	-2.1	*	zzzzzzzzzz!!!!"zzzzzzzzzz!!!!Az!!!!azzzzzzz!!i~	
+GAAAATGGA/TCCATTTTC	6	4	4	1	-1.5	*	zzzzzzzzzzzzzzzzzzz!!!9)#QOi)zzzzzz!WW3#z!!!!A~	zzzzzzz!!!"L~
+GAACAACAA/TTGTTGTTC	5	4	4	0	-2.1	*	zzzzzzzzzzzzz!.Y%Lzzz!!3-#!'gMazzzzzzzzz!!!!%~	
+GAAGACAAA/TTTGTCTTC	4	4	4	1	-1.5	*	zzzzzz!!!!)zzzzzzz!!!9)z!!!9)zzzzzzzzzz!!!"L~	zzzzzzzzzzzzzzzzz!!!Q~
+GAATTACAA/TTGTAATTC	0	4	4	1	-1.5	*	zzzzzzzz#QOi)z#QOi)zzzz!$D7A!!!!a~	zzzzzzzz!"]~
+GAGAAAAAT/ATTTTTCTC	2	4	4	1	-1.5	*	zzzzzzzzz!!!-%zzz!!7ZNzzzzzzzzzz5Q~	zzzzzzzzzzzzzzzzzzzzzzzzzzz!<~
+GAGAACAAT/ATTGTTCTC	5	4	4	1	-1.5	*	zzzzzzzzzz!!3-#zzzzzz!.Y%Lzzz+92BAzzzzzzz&-~	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!'~
+GATAATAAT/ATTATTATC	-5	4	4	0	-2.1	*	zzzzzzzzzzzzzzz!!E9%zzzz!!%NLzz!$D7Azzzzzz!!!'~	
+GCAAAACAG/CTGTTTTGC	7	4	4	0	-2.1	*	zzzzzzzz!!!'#zzzzzzzzzzzzz!!",Azzzzz!!#7a"9~	
+AGACAAAGC/GCTTTGTCT	7	4	4	1	-1.5	*	zzzzzz!!!!)zzzz!!!!Azz!!!9)zzzz!!!"L~	z!!i~
+GGAAAAAAG/CTTTTTTCC	4	4	4	1	-1.5	*	zz!!!!1zzzz!!!-%zzzzzzzzzzzzzzzzz!!*'"!!!!#~	zzzzzzzzzzzzzzz!!!9~
+GGAAAAATG/CATTTTTCC	4	4	4	0	-2.1	*	zzzzzzzzz!!!$"zzzzzzzzJ,fQLzzzzzzzz!!E<~	
+GGAAAGAGA/TCTCTTTCC	4	4	4	0	-2.1	*	zzzzzz!!!$"zzzzzz!!3-#zz&-)\1zzzzzzzzzzzz!!!!%~	
+GGAAGACAA/TTGTCTTCC	4	4	4	1	-1.5	*	zzzzzz!!!!)zzzzzzz!!!9)z!$D7Azzzzzzzzzz!!!"L~	!'g~
+GGAGAACAA/TTGTTCTCC	4	4	4	1	-1.5	*	zzzzzz!!#7azzz!!3-#zzz5QCcazz!.Y~	zzz!!!!%~
+GTAGAAAAA/TTTTTCTAC	1	4	4	1	-1.5	*	zzzzzzzz!!iT*zzzzzzzzzzzzzzz!!!!%zzzzz!!!!#~	zzzzzzzzzzzzzzzzz!W~
+GAAAGAAAC/GTTTCTTTC	6	4	4	1	-1.5	*	z!!!9)zzzzzz!!!9)zzzzzzzzzzzz!!!!"!!!$~	zzzzzzzzzzzzz!!3~
+GAAGAAAAC/GTTTTCTTC	1	4	4	1	-1.8	*	&-)\1zzzzzzzzz!!#7azzzz!!!!%zzzzzzzzzzzzzz!$D~	zzzz!!",~
+TAATGAAAC/GTTTCATTA	-1	4	4	1	-1.5	*	zz!!iQ)zzzzzz!!#7azJ,fQLzz!!!!#~	zzzzzzz!!!!A~
+AAAGAGGTA/TACCTCTTT	7	4	4	0	-2.1	*	zzzzzz5QCcazzzzzzzzzzz!!!Q1zz!!!!Azzzzzzzzz!W~	
+GAAGAACTA/TAGTTCTTC	5	4	4	0	-2.1	*	zz!!",Azzzzzzzzz!!E9%z#QOi)z!!%N~	
+AAAGTGATA/TATCACTTT	7	4	4	1	-1.8	*	zzzzzz&-)\1!!!-%z!!!!"zzzzzzzzzzzzzzzzzzzzzzz!!!!A~	+9~
+GAAGAGATA/TATCTCTTC	4	4	4	0	-2.1	*	zzzzz!!3-#zzzzzz!!E9%zzz!!%NLzzzzzzzzJ,~	
+GTAGAAATA/TATTTCTAC	-5	4	4	1	-1.5	*	zzzz!!!9)zzz!!!!"zzzz&-)\1z!!!!#~	zzzzz!!!"L~
+TGAAACAGA/TCTGTTTCA	2	4	4	1	-1.5	*	z!!iQ)zzzzzzzzzzzzzzz!!!!)zz5QCcazzzzzzzzz!!!!)~	zzzzzzzzzzzzzzzzzz!!!!a~
+ATTAGAAGA/TCTTCTAAT	0	4	4	0	-2.1	*	zzz!!iQ)zzzzzz!!!!#zzzzzzzzzzzz!$D7Azzzzz!!!!1~	
+GGAACAAGA/TCTTGTTCC	3	4	4	1	-1.8	*	zz"98E%zzzzzzzzzzzzzzzzzz5QCiczzzz!!!-~	zzzzzzzzzzzzzzzzzzzzzz!"]~
+GAGGAAAGA/TCTTTCCTC	2	4	4	0	-2.1	*	zzz!!%NL+92BAzzzzzzzzzzzzzzzzzzzzzz!!!!1zzzzz!!!!%~	
+GCAGAAAGA/TCTTTCTGC	3	4	4	1	-1.5	*	zz!"],1zzzzzzzz!!",Azzzzzzzzzzzzz!!%NLzzzzzz!!#7~	zzzzzzzzzzzzzzzzz!W~
+TAGAAAAGA/TCTTTTCTA	2	4	4	1	-1.5	*	zzzzzzzzzzzzzzzJ,fQLzzz!.Y%Lzzz!!!!azzzzzzzz!!!$~	zzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*~
+AACAAAAGA/TCTTTTGTT	6	4	4	1	-1.8	*	zz!!!Q1zz#QOi)zzzzzzzzzzzzzzzzzz!WW3#zzzzzzz!$D~	zzzz!!!!"~
+TGAAAGAGA/TCTCTTTCA	-1	4	4	1	-1.5	*	z!!!!"!!*'"+92BAzzzzzzzzzzzzzzzzzzzzz!!i~	zzzzzzzzzzzzzzzzzzzzz&-~
+GAAGAGACA/TGTCTCTTC	6	4	4	1	-1.5	*	z!!*'"z!!%NLzzzz!!%NLzzzzzzzzzzz!.Y~	zzzzzzzzzzzzzzzzzzzzzzzzzzzzz!.Y~
+AGGAAGACA/TGTCTTCCT	3	4	4	1	-1.5	*	zzzzzz!!!!)zzzzzzz!!!9)z!$D7Az!!%N~	!'g~
+AGAGGAACA/TGTTCCTCT	0	4	4	0	-2.1	*	zzzzzzzzzz!!!!#zzzzzz!!E9%zzzzzzzzzz!!!!%zzzz!"]~	
+ATAAAATAA/TTATTTTAT	7	4	4	1	-1.5	*	zzz!!!!%zzz!WW3#z5QCcazzzzzzzzzzzzzzzzzz!!3~	zzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!1~
+TCAAGAGAA/TTCTCTTGA	0	4	4	1	-1.5	*	zz!!3-#zzzzzzzzzzzzzzzzzzz!!iQ)zzzz!!!!1zzzz!.Y~	zzzzzzzz!!3~
+TTGAAACAA/TTGTTTCAA	0	4	4	1	-1.5	*	zz!!!!%zzzzzzz5QCcazzzzz!!!$"zzzzz!!i~	zzzzzzzzzzzzzzzzzzzzzzzzzz!!!-~
+TGTTTTAAA/TTTAAAACA	-3	4	4	1	-1.5	*	zzzz!!!!A!!!-%zz!$D7Azzzzzzzzzzzzzzzzzzzzzz!!*~	zzzzzzzzzzzzzz!'g~
+TTTAGAAAA/TTTTCTAAA	0	4	4	1	-1.5	*	zzzz5QCcazzzzzzzzzzzzzzzzz+92BA!!!!azzzzz!.Y~	zzzzzzzzzzzzzzzzzzzz!!!Q~
+TATAATAAA/TTTATTATA	-3	4	4	1	-1.5	*	!.Y%Lzzzzzzzzzzzzzzzzzzzzzz5Tg%,zzzzzzz!!!!%~	zzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!1~
+AATCTCAAA/TTTGAGATT	-5	4	4	1	-1.5	*	zzzzzzzz!!E9%z"98E%zzzzzzzzzzzzzz+92BAzzz#Q~	zzzzzzzzzzzzzzzzzzzzzzzzzz!!!!%~
+GGAGCAAAA/TTTTGCTCC	4	4	4	1	-1.5	*	zz!!!!Azzzz!!!!#!!!'#zzzzzzzzzzzzzzzzzzz!!!-~	zzzzzzzzzzzzzz!!!"L~
+GAAGCAAAA/TTTTGCTTC	1	4	4	1	-1.5	*	zzzzzzzzz!$D7Az5QCcazz!!!"Lzzzzzz&-~	zzzzzzzzzzzzzzzzzzzz!!!-~
+AAGTAAAAA/TTTTTACTT	3	4	4	1	-1.5	*	zz&-)\1zzzzz!WW3#z!'gMazzzzzzzzz+9~	zzzzzzzzzzzzzzzzzzzzzz!!!!%~
+CTACAAAAA/TTTTTGTAG	0	4	4	1	-1.5	*	zzzzzzzzzz!!!!1zzzzzz5QCcazzzzzzzzz!!!!#zzzz!!!Q~	zzzzzzzzz!!!-~
+AAAACAACA/TGTTGTTTT	6	3	3	0	-1.8	*	zzzzz!!E9%zzzzzzzzzzzzzzzzz!!!!1zzzz!!!!a~	
+AAAACAGCG/CGCTGTTTT	9	3	3	0	-1.8	*	zz!!!!)zzzzz!!!'#zzzzzzzzzzzzz!!",~	
+AAAACTATC/GATAGTTTT	6	3	3	0	-1.8	*	zzzzzzJ,fQLzzzz5QCcazzzzzzzzzzzzzzzzzz"9~	
+AAAAGCACC/GGTGCTTTT	5	3	3	0	-1.8	*	zzzzzzzz5QCcazzzzzzzzzzzzz!!!!#zzz!!i~	
+AAAATGCCA/TGGCATTTT	5	3	3	0	-1.8	*	zzzzzzzzzzzz!"],1zz!!!!"zzzzzz!<~	
+AAAATTACA/TGTAATTTT	-1	3	3	0	-1.8	*	zzzzzzzzzzz!!3-#z!!!9)zzzzzzzzzzzzzzzz5Q~	
+TCGCTGTTT/AAACAGCGA	-6	3	3	0	-1.8	*	zzzzzzzzzzzzzzzzz!!E9%!!!!azzzzzz!!!!"~	
+AAACGAGGA/TCCTCGTTT	7	3	3	0	-1.8	*	zzzzzzzzzzzzzzzz!!!!azzz!!!Q1zzzzzzzzzz!.Y~	
+AAACTGCAA/TTGCAGTTT	2	3	3	0	-1.8	*	!!%NLzzzzzzzzzzzzzz!!!!#zzzzzzzzz!!!9~	
+AAAGACGAA/TTCGTCTTT	6	3	3	0	-1.8	*	zzzz!!",Azzzzzzzzz!WW3#zzzzzzzzzz!!!-~	
+AAAGAGTAG/CTACTCTTT	7	3	3	0	-1.8	*	zzzzz#QOi)zzzzzz!!#O~	
+AAATAATGC/GCATTATTT	7	3	3	0	-1.8	*	zzzzz"98E%zzzzzzzzzzzzzzzzz!!!!azz!!!!)~	
+AAATATGAC/GTCATATTT	7	3	3	0	-1.8	*	zzzzzzzzzzzzzzzzz5QCcazzzzzzzz!!!!azzzz!!!!A~	
+AAATGATTA/TAATCATTT	-3	3	3	0	-1.8	*	zzzz!!iQ)zzzzz!!3-#zzzzzzzzzzzzzzzzzzz5Q~	
+TAATAATTT/AAATTATTA	-3	3	3	0	-1.8	*	zzzzzz#QOi)zzzzzzzzzzzzz!!%NLzzzzzzzzzzz!!!!"~	
+AACAAACTG/CAGTTTGTT	-1	3	3	0	-1.8	*	zzzzzzz!!",Azzzzzz&-)\1!!!!#~	
+AACAAATCA/TGATTTGTT	5	3	3	0	-1.8	*	zzzzzzzzzz!.Y%Lzzzzz!'gMazzzzzzzzzzzz!!!!a~	
+AACAAGATA/TATCTTGTT	3	3	3	0	-1.8	*	zzz!!!$"zzz!!!9)zzzzzzzzzzzzzzzzzz+9~	
+AACAGGAAG/CTTCCTGTT	0	3	3	0	-1.8	*	zzzzzz!!!!)zzzzzzz!!!9)zzz!!*~	
+AACATGAAG/CTTCATGTT	5	3	3	0	-2.1	*	zzzzzzzzzzzzzz!!!"Lzzzzz!!!!%!!!'~	
+AACTAGAAG/CTTCTAGTT	-1	3	3	0	-1.8	*	zzzzzzzzzzzzzz#QOi)!'gMazzzz!$D~	
+AAGAAACTT/AAGTTTCTT	5	3	3	0	-1.8	*	zzzzzzzz!!!9)zzzzzz!WW3#zzzzzzzzzzzzzz!<~	
+AAGAAATAA/TTATTTCTT	7	3	3	0	-1.8	*	zz!!#7azzzzzzzzzzzzzzzzzzzzzzzzz!!*'"zzzz!!%N~	
+AAGAACTAG/CTAGTTCTT	6	3	3	0	-1.8	*	zzzzzzzzzzzz!!E9%z#QOi)z!!%N~	
+AAGACAAGT/ACTTGTCTT	5	3	3	0	-1.8	*	!!iQ)zzzz!!!"Lzzzzzzzzzz!!!9~	
+AAGATAAGC/GCTTATCTT	6	3	3	0	-1.8	*	zzzzzzz!!!9)zzzz!!!9)zzzzzz!!!!a~	
+AAGGGAAAT/ATTTCCCTT	1	3	3	1	-1.5	*	zzzzzz!!#7azzzzzzzzzzzzzzzzzzzzzzz!!!!1zz!!!!a~	zzzzzzzzzzzzzzzzzzzzzzzz!!!Q~
+AAGTAAAGA/TCTTTACTT	3	3	3	0	-1.8	*	zzzzzzz!!E9%zzz!!!!#zzzzz!.Y~	
+TTAATAATT/AATTATTAA	-4	3	3	0	-1.8	*	z!$D7Azzzz#QOi)zzzzzzzzzzzzzzzzzzzzzz!!3~	
+CAAGAAATT/AATTTCTTG	5	3	3	0	-1.8	*	zzz!!!!azzzzz"98E%zzzzzzzzzzzzzzzzzzzz!!!'~	
+ACAAATCAA/TTGATTTGT	6	3	3	0	-1.8	*	zzzzzzzzzz!.Y%Lzzzzz!'gMazzzzzzz!!*~	
+ACAACAACC/GGTTGTTGT	-3	3	3	0	-1.8	*	zzzzzzzzzzzzzzzzzzzzzzzzz&-)\1zz+92C,~	
+ACAACCAAG/CTTGGTTGT	-6	3	3	1	-1.5	*	z!!!!)zzzzz!!!!)zzzzzzzzzzz!!!Q~	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!.Y~
+ACAGGAAGA/TCTTCCTGT	1	3	3	0	-1.8	*	zzzzzz!!!!)zzzzzzz!!!9)zzzzzzzzzzz&-~	
+AGAAAAAGC/GCTTTTTCT	3	3	3	0	-1.8	*	zzzzzzzz"98E%zzzzz!!E9%zzzz!!!!a~	
+AGAAGGAAT/ATTCCTTCT	9	3	3	0	-1.8	*	zzzzzz"98E%zzzzzzzzzzzzz!"],1zzzzzzzzzzz!!!!#~	
+AGAAGGGAA/TTCCCTTCT	0	3	3	0	-1.8	*	zzzzz&-)\1zzzzzzzzzzzzzzzzzzzzzzzz!!!!1zz!!#7~	
+AGAGAAACC/GGTTTCTCT	6	3	3	0	-2.1	*	5QCcazzzzzzzzzzzzzzzzzzzzzzzzzz!!",Azz!!!'~	
+AGAGGAAAC/GTTTCCTCT	1	3	3	0	-1.8	*	zzzzzzzzzz!<<*"zzzzz!!!'#zzzzzzz!!",~	
+AGCAAAACA/TGTTTTGCT	6	3	3	0	-1.8	*	zzzzzzzz!!!'#zzzzzzzz!!!!"zzzzzzzzzzz"9~	
+AGCAAAACG/CGTTTTGCT	6	3	3	0	-1.8	*	zzzzzzz!!!!#zzzzzzzzzzzzzzzzJ,fQLz"9~	
+AGGGAAATA/TATTTCCCT	2	3	3	1	-1.5	*	zzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"zzz!!!!1zz!!!!a~	zzzzzzzzzz!!!$~
+TTATTCCCT/AGGGAATAA	0	3	3	0	-1.8	*	zzzzzz!!#7azzzzzzzzzzzzzzz5QCcazzzzzzzzzz!!!!1~	
+ATAAAAATC/GATTTTTAT	6	3	3	0	-1.8	*	zzzzzz!!!!Azzzzzzzzzzzz!.Y%Lzz!!!Q~	
+ATAAACCGA/TCGGTTTAT	9	3	3	0	-1.8	*	!.Y%Lzzz!!!"Lzzzzzzzzzzzzzzzzz!!!!"~	
+ATATAAAGA/TCTTTATAT	-2	3	3	0	-1.8	*	zzzzz!"],1zzzzzzz#QOi)zzzzzzzz!!#7~	
+AAGAGATAT/ATATCTCTT	-2	3	3	0	-1.8	*	zzzzzzzz!'gMazz!!!"Lzzzzzzzzzzzzzzzz!!!!A~	
+ATCAAATGA/TCATTTGAT	-6	3	3	0	-1.8	*	zzzz!!iQ)zzzzz!!E9%zzzzzzz!!%N~	
+ATCAAGAGA/TCTCTTGAT	-1	3	3	1	-1.5	*	zz!!3-#zzzzzzzzzzzzzzzzzzzzzzzz!!!!1zzzzz!!!"L~	zzzzzzzz!!3~
+ATAGAAGAT/ATCTTCTAT	1	3	3	0	-1.8	*	zzzz!!!!azzzzz!$D7Azz!!!"L~	
+ATGAAAAGG/CCTTTTCAT	-1	3	3	0	-1.8	*	zzzzzzzz!<<*"zzzz!!3-#zzzzz!!!!)~	
+CTTGTTCAT/ATGAACAAG	-4	3	3	0	-1.8	*	zzz!!!$"z!!!Q1zzzzzzzzzzzzzzzzzzzz+9~	
+AAAATTCAT/ATGAATTTT	7	3	3	1	-1.5	*	zzzzzzzzzzzzzzzzzz!!!!AzzzzzzzzzzzzzzJ,fQL"9~	zzzzzzzzzzzzzzzzzzzzz!'g~
+ATTAAGAAA/TTTCTTAAT	0	3	3	0	-1.8	*	zzzzzzzzzzzzzzzzzzzzzz!!3-#zz!!!!1!.Y~	
+ATTATATAA/TTATATAAT	-5	3	3	0	-1.8	*	zzzzz!"],1zzzzzzzz!$D7Azzzzzzzzzzzzzz!'g~	
+ATGAAGAAT/ATTCTTCAT	3	3	3	1	-1.5	*	zzzzzzzzzzzzzzzzzz!!!!"zzzzz!!!9)zzzzzzzz!!!!A~	zzzzzzzzzzzzzzzzzzzzzz&-~
+ATTTCTTAT/ATAAGAAAT	-9	3	3	0	-1.8	*	zzzzzzzz!!!!)zzzzzzz!!!Q1zz!!!!A~	
+CAGCAAAAT/ATTTTGCTG	5	3	3	0	-1.8	*	zzzz!!!$"zzzzzzzzzzzzzz!!#7azzzzzzzzzz!!!!a~	
+CAAAACAGC/GCTGTTTTG	8	3	3	0	-1.8	*	zz!!!!)zzzzz!!!'#zzzzzzzzzzzzz!!",~	
+CAAAACCAA/TTGGTTTTG	7	3	3	0	-1.8	*	zzzzzzzzzzzzz!WW3#zzzzzzzzzz!!iQ)!!*~	
+CAAACTATA/TATAGTTTG	7	3	3	0	-1.8	*	zzzz!!iQ)zzzzzzzzzzzzzzzzz!!#7azzzzzzzzz!!3~	
+CAAAGAGAG/CTCTCTTTG	1	3	3	0	-1.8	*	zzz!!!$"zzzzz!!!!1zzzzz!<~	
+CAAAGGAAA/TTTCCTTTG	-1	3	3	0	-1.8	*	zzzzzzzzzzzz!"],1zzzzzzJ,fQLz&-~	
+TGGTTCTTG/CAAGAACCA	-4	3	3	0	-1.8	*	zzz!!#7azzzzzzzzzzzzzzzz&-)\1zzzzzzz#Q~	
+CAATAGAAG/CTTCTATTG	-1	3	3	0	-1.8	*	zzzzzzzzzzzzzzzz!!!9)z!!%NLzzzzzz!!!!%~	
+GGTTTTGTG/CACAAAACC	-4	3	3	0	-1.8	*	zz#QOi)zzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!azz!'g~	
+CAGAAAAAA/TTTTTTCTG	2	3	3	0	-1.8	*	zzzzz!!!9)zzzzzzzz!!!Q1zzzzzzzzzz!!%N~	
+CAGAATACA/TGTATTCTG	9	3	3	0	-1.8	*	zzzzzzzzzzzz!!#7azzzzzzzzzzz!!",Az!<~	
+CAGGAAAAC/GTTTTCCTG	1	3	3	0	-1.8	*	zzzzzz!$D7Azzzzzzzz#QOi)zzzz!!E~	
+CAGGCAAAA/TTTTGCCTG	4	3	3	0	-1.8	*	zzzzzzzzzzzz!.Y%L!!*'"zzzzzzzzzzzzzz!!#7~	
+ATAGAAATG/CATTTCTAT	-6	3	3	0	-1.8	*	zzzzzzzzzzzzzzzzzzzzzzz!!!-%zz#QOi-~	
+TTGTGTTGG/CCAACACAA	0	3	3	0	-1.8	*	zzzzzzzzzzzzzzzz!!!9)zzzzzzzzzzzzz!!!!Azz!'g~	
+ATAAAGAGG/CCTCTTTAT	0	3	3	0	-1.8	*	z!!iQ)z!!",Azzzzzzzz!!!!1~	
+TGAAAAAGG/CCTTTTTCA	3	3	3	0	-1.8	*	zzzzzzzzzzzzz!!!!#!!!!1zzz#Q~	
+CGTGTTCTT/AAGAACACG	-2	3	3	0	-1.8	*	zzzzzzzzzzzzzzzzzz!!",Azzz"98E%zzz&-~	
+CTACAAAAC/GTTTTGTAG	-5	3	3	0	-1.8	*	zz!!!!)zzzz!!!!"zzzzzzzzzzzzz!!!Q~	
+CTATGAAAA/TTTTCATAG	-1	3	3	0	-1.8	*	zzzzzzzzzzz!!!$"zzzzzzzzzz!!!"Lzzz!'g~	
+AACCAATAG/CTATTGGTT	-2	3	3	0	-1.8	*	zzzzzzzz!!!!1zzzzzzzzzzzzzzz!"],1!!!!%~	
+CTATTTATT/AATAAATAG	-8	3	3	0	-1.8	*	zzzzzz!!iQ)z!"],1zzzzzzzzz5Q~	
+GATAAAGAG/CTCTTTATC	-1	3	3	0	-1.8	*	z!!iQ)z!!",Azzzzzzzzzzzzzzzzz!!!!1~	
+CTGAAAAAT/ATTTTTCAG	2	3	3	0	-1.8	*	z!!!'#zzzzzzzzzzzzz&-)\1zzzz&-~	
+ACAAACCAG/CTGGTTTGT	6	3	3	0	-1.8	*	zzzzzzzzzzzzzzzzz#QOi)zz!!!-%zz!!!9~	
+ACAAAACAG/CTGTTTTGT	-3	3	3	0	-1.8	*	+92BAz!!!!)zzzzz!!!-~	
+ATAAATAAG/CTTATTTAT	-4	3	3	0	-1.8	*	zzzzzzzzzzzzzzzzzzz!!!!#zzz#QOi)zzzzzzzz!!!!a~	
+ACGAAGAAG/CTTCTTCGT	-1	3	3	0	-1.8	*	zzzz"98E%zzz!!!Q1zzzzzzzzzzz!.Y~	
+CAATGAAAG/CTTTCATTG	1	3	3	0	-1.8	*	zzJ,fQLzzzzzzzzzzzzz,Q~	
+GAAAAACAA/TTGTTTTTC	3	3	3	0	-1.8	*	zzzzzzzzzzzzzzzzzzzzzzzz!!!'#zzz!!!!az!!#7~	
+GAAACAATA/TATTGTTTC	8	3	3	0	-1.8	*	zzzzzzzzzzzzzzz!!"/Bzzzzzzzz!'g~	
+GAAATATGA/TCATATTTC	8	3	3	0	-1.8	*	zzzz!!!!%zzzzzzzzzzzzzzzzzzzzzz!!#7azzz!!!!A~	
+GAACAGCAA/TTGCTGTTC	2	3	3	0	-2.1	*	zzzzzzzzzzzzzzzzzzzzzz!!!!)zJ,fQLzzzzzzzz!!!"L~	
+GAACATGAA/TTCATGTTC	4	3	3	0	-1.8	*	zzzzzzz!!!9)zzzzzzzzzzzz!!!!%zzzzzzzzzz!<~	
+GAAGGAAAG/CTTTCCTTC	1	3	3	0	-1.8	*	zzzzz!!!$"zzzzzzzzzz&-)\1zzzzzzzzzzzzzzz!!i~	
+GAAGGGAAA/TTTCCCTTC	1	3	3	0	-1.8	*	zzzzzzzzzzzzzzzz!<<*"zzzzzzzzzzzzz!!!!1zz!!i~	
+GAATAAAGA/TCTTTATTC	6	3	3	0	-1.8	*	z!!!9)zzzzzzzzzzzzzzzzzzzz!WW3#zz"9~	
+TTATTATTC/GAATAATAA	-3	3	3	0	-2.1	*	!!!!azzzzzzz!!#7azzzzzzzzzzzzz5Q~	
+TCTTTTGTC/GACAAAAGA	-6	3	3	0	-1.8	*	zzzz&-)\1z!!!!#zzz+9~	
+GAGAACAAG/CTTGTTCTC	5	3	3	0	-1.8	*	zzzz!'gMazzzz!!%NLzzzz5Q~	
+GAGCAAAAC/GTTTTGCTC	5	3	3	0	-1.8	*	zzzzzzz!!!!#!!!'#zzzzzzzzzJ,~	
+ATGTTTATC/GATAAACAT	8	3	3	0	-2.1	*	zzzzzzzzzzzzzzzzz!'gMazzzzzzzzzzzzzJ,fQLzz!<~	
+AAAGAGATC/GATCTCTTT	7	3	3	0	-1.8	*	zzzzzzz!!#7azzzz!!!!)zzzzzzzzzzzzzzzz!!#7~	
+GCAAAAAGC/GCTTTTTGC	7	3	3	0	-1.8	*	zz!!!!Azzzzzzzzzzzzzzzzzzzzzzz!!iQ)zzzJ,~	
+GCGGAAAAA/TTTTTCCGC	1	3	3	0	-1.8	*	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!A!!#7aJ,~	
+GAGAAAAGC/GCTTTTCTC	2	3	3	0	-1.8	*	zzzzzzzzzzzzzzzzzzzz!!!!1zzzzz!!%NLzzz5Q~	
+GGAAGTAAA/TTTACTTCC	1	3	3	0	-1.8	*	zzzzzzzz!!E9%zzzzzz!!3-#zzzzzzz!.Y~	
+GGCAAAAAG/CTTTTTGCC	6	3	3	0	-1.8	*	zzzzzzz!!!!%zzzzzzzzzzzzzzzzzz!!iQ)zzzJ,~	
+GGGAAAAGA/TCTTTTCCC	2	3	3	0	-1.8	*	zzzzzzz!!!"Lzzzz&-)\1zzzzzzzzzJ,~	
+TAATAAACC/GGTTTATTA	8	3	3	0	-1.8	*	!.Y%Lzzzzzzzzzzzzzzzzzzzz!!iQ)zzz!!!!a~	
+AGAAAAACC/GGTTTTTCT	3	3	3	0	-1.8	*	zzzzzzzz!!iQ)zzzzzzzzzzz!!!!1zzzzzz!!!!"~	
+AAGAGACAC/GTGTCTCTT	7	3	3	0	-1.8	*	z!!*'"z!!%NLzzzzzzzz!!!'~	
+AAATAACAC/GTGTTATTT	9	3	3	0	-1.8	*	zzzzzzzzzzzzzzzzzzz!WW3#zzzzzzzzz"98E%zJ,~	
+AGGAAACAC/GTGTTTCCT	3	3	3	0	-1.8	*	zzzzz&-)\1!!*'"zzzzzzzzzzzzzzzzzzz!!#7~	
+TAAAGAGAA/TTCTCTTTA	-2	3	3	0	-1.8	*	zzzz&-)\1zz"98E%zzzzzzzzzzzzzzzzzzzzzz!<~	
+AAATAGTTA/TAACTATTT	8	3	3	0	-1.8	*	zzzzzzz!!E9%zzzzzzz!!3-#zzzzzzzzzzz!!%N~	
+TAATAATGA/TCATTATTA	-4	3	3	0	-1.8	*	zzzzzzzzzzzJ,fQLz!.Y%Lzzzzz!"]~	
+TAATACAAC/GTTGTATTA	-7	3	3	0	-1.8	*	z5X5;Lzzzzzzzzzzzzzzzzzzzzzzz&-~	
+TACTAAGAA/TTCTTAGTA	4	3	3	0	-2.1	*	!!!!az!!%NLzzzzzzzJ,~	
+AGGAAAGTA/TACTTTCCT	3	3	3	0	-1.8	*	zzzzzzzzzzzzzz!!!!1zzzzz!!*'"zzzzzzzzzzz!!i~	
+TAGAAAGAA/TTCTTTCTA	-5	3	3	0	-1.8	*	zzzz!"],1zzzzzzzzzzzzz"98E%zzzzzzzzzzzz!!!!1~	
+TATAAAGAA/TTCTTTATA	-1	3	3	0	-1.8	*	zzzzz!"],1zzzzzzz#QOi)zzzzzzzzzzzzzzzz!'g~	
+TATATAAAG/CTTTATATA	-3	3	3	0	-1.8	*	zzzzz!"],1zzzzJ,fQLzzzzzzzzzzz!!#7~	
+CAAAATATA/TATATTTTG	8	3	3	0	-1.8	*	zzzzzzzz!<<*"zzzzz!!3-#zzzz!!#7~	
+CAAGAGATA/TATCTCTTG	-3	3	3	0	-1.8	*	zzzzzzz+92BA!'gMazzzzzzzzzzzzzzzzzzz!!!!A~	
+TGAAAGATA/TATCTTTCA	-5	3	3	0	-1.8	*	zzz!.Y%Lzzzzzzzz!!*'"!$D~	
+AAAACCATA/TATGGTTTT	5	3	3	0	-1.8	*	zzzzzz!$D7Azzzzzzzzzz!!!"Lz!!!9~	
+TATTATACT/AGTATAATA	6	3	3	0	-1.8	*	!!!"L!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzz!!!!a~	
+AGAATAATA/TATTATTCT	9	3	3	0	-2.1	*	!!!!azzzzzzz!!#7az!!!$~	
+CAACCAATA/TATTGGTTG	-3	3	3	0	-1.8	*	zzz!!!Q1zzzz!!!!1zzzzzzzzzzzzzzzz!!!!%~	
+GATCAAATA/TATTTGATC	8	3	3	0	-1.8	*	zzzzzzz!!E9%zzzzzzzzzzzzz!"],1zzzzz!!E~	
+AGCAAAATA/TATTTTGCT	6	3	3	0	-1.8	*	zzzzzzzzzzzzzz!!3-#zzzz!!#7azzzzzzzzzz!!!!a~	
+TCAAAGACA/TGTCTTTGA	4	3	3	0	-1.8	*	!!iQ)zzzzzzzzzzz!!!Q1zzz!!!!)~	
+TCACAGAAA/TTTCTGTGA	0	3	3	0	-1.8	*	zz+92BAzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"zz!!!9~	
+ATATATAGA/TCTATATAT	0	3	3	0	-1.8	*	zzzzzzzzzzzzz!!!Q1zzz!!!"Lzzzz!!!!"~	
+AAGAGAAGA/TCTTCTCTT	0	3	3	0	-1.8	*	zzzzzzz"98E%zzzzzzzzz!!",Azzzzzzz!!i~	
+TGAAAAACA/TGTTTTTCA	2	3	3	0	-1.8	*	zzzzzzzzzzzzzzz&-)\1zzzzzzzzzzz5QCcazz!!#7~	
+TGAAAAATA/TATTTTTCA	3	3	3	0	-1.8	*	!!#7azzzzzzzzzzz!!!!azzzzzzzzzzzzz!!!!a~	
+AAAAATTCA/TGAATTTTT	6	3	3	1	-1.5	*	zzzzzzzzzzzzzzzzzzzzzz!!3-#zzzzzzzzzzJ,fQL"9~	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<~
+TAAAATCCA/TGGATTTTA	-7	3	3	0	-1.8	*	zzzzzzzzzzzzzzzzz!!",Azzz+92BAzzzzzzz"9~	
+AACAAACCA/TGGTTTGTT	5	3	3	0	-1.8	*	zzzzzzzzzzzzzzzzz#QOi)zz!!!-%zz!!!9~	
+TGTAGAAAA/TTTTCTACA	0	3	3	0	-1.8	*	zz"98E%zzzzz!!iQ)zzzzzzzzzzzzzzz!!!!%~	
+TGTCTCTTT/AAAGAGACA	-2	3	3	0	-1.8	*	zzzzz!!iQ)zzzzzz!!!'#zzzzzzzzzz!!!!"~	
+TGTTCTTGG/CCAAGAACA	0	3	3	0	-1.8	*	zzzzzzzzzzzzzzz!!3-#zz!!",Azzzzzz"9~	
+GGAACAACA/TGTTGTTCC	3	3	3	0	-1.8	*	z+92BAzzzzzzzzzzzzzzz!!3-#zzzzzzzzzz!!!!%~	
+TAGGAAACA/TGTTTCCTA	2	3	3	0	-1.8	*	zzzzzzzzzz!!!Q1zzzzzzzzzzzzz!.Y%N~	
+TTACTTGCT/AGCAAGTAA	-2	3	3	0	-1.8	*	zzzzzzzzzzzzzzzz!!!$"zzz!!!$"zzzzzzzzz!!!!)~	
+AATTGATAA/TTATCAATT	-4	3	3	0	-1.8	*	zzzzzzzzzzzzzzzzz!!!!1zzzzzzzzzzzz!!!'#z!<~	
+TTATAATAA/TTATTATAA	-4	3	3	0	-1.8	*	!!!"Lzzzzzzzzzzzzzzzzzzzzzz!$D7Azzzzzzz!!!!%~	
+AATAAATAA/TTATTTATT	-5	3	3	0	-1.8	*	zzzzzzzzzz!'gMazzzzzzzzzzzz#QOi)zzzzzzzz!!!!a~	
+AAGATTGAA/TTCAATCTT	8	3	3	0	-1.8	*	zzzzz!!iQ)zz!!!!#zzzzzzzzzzzzzzzzz!!!-~	
+CAAGGAGAA/TTCTCCTTG	1	3	3	0	-1.8	*	zzzzzzzzz!<<*"z!!!!azzzzzzz!'g~	
+AATGAAGAA/TTCTTCATT	2	3	3	0	-2.1	*	zzzzz!<<*"zzzzz"98E%zzzzzzzzzzzzzzzzzzzzz!!!!A~	
+CATCAAGAA/TTCTTGATG	-1	3	3	0	-1.8	*	zzzzzzzzzzz!!!!azzzzzzzzzzzzzzzz!!!!%#Q~	
+TTGAAAAAC/GTTTTTCAA	1	3	3	0	-1.8	*	zzz!.Y%Lzzzzzzzzzzzzzzz!!!$"z!!i~	
+AATATTCAA/TTGAATATT	-9	3	3	0	-1.8	*	zzzzzzzz!!!'#zzzzzz!!!!1zzzzzzzzzzzz!!!!A~	
+GAAGATCAA/TTGATCTTC	4	3	3	0	-1.8	*	zzzzzzzzzzzzzzzzzzzzz!"],3zzzzzzzzzz!!!!A~	
+CAACAGCAA/TTGCTGTTG	-7	3	3	0	-1.8	*	z!<<*"z"98E%zzzzzzzzzzzzzzz!!#7~	
+GAAGGACAA/TTGTCCTTC	7	3	3	0	-1.8	*	zzz!XJc+zzzzzzzzzzzzzzzzzzzzzzzzzzzz!<~	
+AAGAAACAA/TTGTTTCTT	5	3	3	0	-1.8	*	z!!!9)zzzzzz!!!-%zzzzzzzzzzzzzzzzzzzz!!#7~	
+CACATTAAA/TTTAATGTG	1	3	3	0	-1.8	*	!!!9)zzzzzzzzzz!!!!%zzzzzzzzzzzzz!!!$~	
+AAGAGTAAA/TTTACTCTT	5	3	3	0	-1.8	*	z!!!!)zzzzzzzzzzzzzzzzzzzzzzz"98E%!!!9~	
+AGTTATAAA/TTTATAACT	3	3	3	0	-1.8	*	zzzzzzzz!"],1zzzzz!!%NLzzzzz!!!!)~	
+TTTATCACT/AGTGATAAA	-4	3	3	0	-1.8	*	zzz+92BAz!$D7Azzzzzzzzzzzzzzzzzzzzzzzzzz!!*~	
+TAGGAGAAA/TTTCTCCTA	2	3	3	0	-1.8	*	zzz#QOi)zzzzz!!!-%zzzzzzzzzzzzzz!!E~	
+CACGAGAAA/TTTCTCGTG	0	3	3	0	-1.8	*	zzzzzzzzzzzzzzzzzzzzzzzzzz!WW3#zzz5QCcaz!!!-~	
+GAGGGAAAA/TTTTCCCTC	2	3	3	0	-1.8	*	zzzzzzzzzzzzzzz!!!9)zz!!!!1zz!!i~	
+ACGAGAAAA/TTTTCTCGT	1	3	3	0	-1.8	*	zzzzzzzzzzzzzzzzzzzzzzzzzzzzJ,fQLz5QCcaz!!!-~	
+GTTTAAAAA/TTTTTAAAC	-2	3	3	0	-1.8	*	zzzzzzzzzzz!!!!azzzz!.Y%Lzzzzzzzzzzzzzzz&-~	
+AGACAAAAA/TTTTTGTCT	3	3	3	1	-1.5	*	zzzzzzzzzzzzzz!'gMazzzzzzzzzzz!!!!1zzzzzzz!<~	zzzzzzzzzzzz!!!Q~
+AANGNAAAAAA/TTTTTTNCNTT	0	3	3	0	-1.8	-85,-90	N.A.	N.A.
+$$$
+CTCTTTTGTT/AACAAAAGAG	0	3	3	0	-2.1	0	zz!!!Q1zz#QOi)zzzzzzzzzzzzzzzzzzzzzzzzzz!$D~	
+CTCTTTTCTT/AAGAAAAGAG	0	4	4	0	-2.4	1	!WW3#zzzzz!!!Q1zzzz!!!!azzzzzzzzzzzzzzzzzzz!!i~	
+CTCTTTTTTT/AAAAAAAGAG	0	7	7	1	-2.4	2	zzzzJKOpmzzzzz!!!!1zzzzzzzzzz!!!!azzzzzzzzzz!!Ei~	zzzzzzzzz!!!-~
+GAAAAAGAAA/TTTCTTTTTC	0	8	8	0	-3.3	3	+92BAzz!!!!%zzzzzzzzzz!!!Q1zzzzzzzzz!!#7azz!!!9)zJ,fQL!!!!#z!!#7~	
+TTTTTTTTTC/GAAAAAAAAA	0	8	8	2	-2.0	4	zzz!!!'#zzzzzzzz!!!!Azzz!!!'#"98E%zJ,fQLzz!!!'#zz!!%NLzz!!*~	zzzzzzzzzzzzzzzz!!!'#zzzzzzzz!!!-~
+ATAAAAAGAG/CTCTTTTTAT	0	3	3	0	-1.8	5	!!!!)zz&-)\1zzzzzzzz!W~	
+CTCTTTTTCT/AGAAAAAGAG	0	4	4	1	-1.5	6	zzzzzzzz!!iQ)zzzzzzzzzz!'gMazz!!3-#zzzz!!i~	zzzzzzzzzzzzzzzzz!!!!"~
+TTGCTCTTTT/AAAAGAGCAA	0	3	3	0	-1.8	7	z"98E%zzzz!!!Q1zzzzzzzzzzzzzzzzzzzzzzzz"9~	
+AAAAGAGTAA/TTACTCTTTT	0	3	3	0	-1.8	8	zzzz!!iQ)zz!!!!"zzzzzzzzzzzzzz!!3~	
+TTTCTCTTTT/AAAAGAGAAA	0	7	7	0	-3.0	9	z!!!9)zz!<<B*zzzzzzz!!!Q1zzzz!WW3#zzzz!!3-#!!!!#~	
+TTCCTCTTTT/AAAAGAGGAA	0	3	3	0	-1.8	10	zzzzzzzzzzzzzzzz!!!'#zzzzzzzzzzzzzzz#Ts~	
+AAAAAGAGAG/CTCTCTTTTT	0	6	6	2	-1.5	11	!!!!#!$D7A!!!!%zzzzzzzzzzz+92Clzzzzzzzzzzzzzzz!!3~	zzzzzzzz!!!Q1zzzzzzzzzzzz!!!!a~
+TTTTTTTTTCC/GGAAAAAAAAA	0	4	4	1	-1.5	12	zzzzzzzzzzzz!!!!Azzzz"98E%zzzz!!!'#zzzzz!!*~	zzzzzzzzzzzzzzzz!!!'~
+TTTTTTTTTTC/GAAAAAAAAAA	0	7	7	1	-2.4	13	zzz!!!'#zzzzzzzz!!!!Azzz!!!'#"98E%zJ,fQLzz!!!'#zz!!%N~	zzzzzzzzzzzzzzzz!!!'~
+GAAAAAGAAAA/TTTTCTTTTTC	0	5	5	0	-2.4	14	zzz!!!!%zzzzzzzzzzzzzzzzzzzzzzz!!!9)zJ,fQL!!!!#z!!#7~	
+TCTTTTTTTC/GAAAAAAAGA	0	5	5	1	-1.8	15	zzzzzzzzzzzzzzzzzzzzz!!!!azz!!!!%zzz!!!!a!!#7azz!!E~	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzJ,~
+TTTTGTTCCG/CGGAACAAAA	0	5	5	1	-2.1	16	&-)\1zzzzzzzz+92BAzzz!WW3#zzzzzzzzzzzzzzz"98E%zz!!!9~	zzzzzzzzzzzzzzzzzzzzzzzzzzzz!!%N~
+CGGAAGAAAA/TTTTCTTCCG	0	4	4	1	-1.5	17	zzzzzzzzzzzzzzzz!<<*"zzzz!!%NLzzzzz!!!!"zzz!!!-~	zzzz!!",~
+TTTTTTTCCG/CGGAAAAAAA	0	3	3	0	-1.8	18	zzzzzzzzzzzz!!!!Azzzzzzzzz!!!'#zzzzzzzz!!!!a~	
+AGGAAAAAAA/TTTTTTTCCT	0	7	7	1	-2.7	19	zzz&-)\1zzzzzz!!!'#z!"],1zzzz"98E%zzzzzz!!E9%z!!*'"z!!!!a~	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzJ,~
+TTTTTCTCCT/AGGAGAAAAA	0	5	5	1	-1.8	20	!!!-%zzzzzzzz!!!-%zzz!!3-#zzzzz!'gMazzzz!!E~	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!3~
+TTTCTTGTTC/GAACAAGAAA	0	4	4	0	-2.1	21	zz"98E%!!!!azzzzzzzzzzzzzzzzz5l~	
+GAGAAAGAAA/TTTCTTTCTC	0	4	4	1	-1.5	22	z!!!9)zzzzzz!!!9)zzzzzz!!!-%zzzzz!!!!"~	zzzzzzzzzzzzzzzzzzzzzJ,~
+TTCTTCTTCTTC/GAAGAAGAAGAA	0	5	5	1	-1.8	23	zz!!!9)z"98FPzzz!!!Q1zzzzzzzzzz+9~	zzzzzzzz!!!Q~
+TTTTTTTTTTTC/GAAAAAAAAAAA	0	4	4	1	-1.5	24	zzz!!!'#zzzzzzzzzzzz!!!'#zzzzz!!!'#zz!!%N~	zzzzzzzzzzzzzzzz!!!'~
+GAAAAAGAAAAA/TTTTTCTTTTTC	0	3	3	0	-1.8	25	zzz!!!!%zzzzzzzzzzzzzzzzzzzzzzzzzJ,fQLzz!!#7~	
+TTTTTTTTTTT/AAAAAAAAAAA	0	7	7	2	-1.7	26	zzz!!!'#!$D7Azzzzzzzzzzz!!!'#zzzzz!!!'#zz+96olzzzzzz!!!Q~	zzzzzzzzzzzzzzzz!!!'#zzzzzzz!"]~
+AAAAAAAAAGA/TCTTTTTTTTT	0	5	5	0	-2.4	27	zzzzzzzzzz!!!!1zzzzzz!!!Q1zzzzzzz+92BAzz!!*'"zzz!!!Q~	
+TCTCTTTTTTT/AAAAAAAGAGA	0	3	3	0	-1.8	28	zzzz!<<*"zzzzz!!!!1zzzzzzzzzzzzzzzzzzzzz!!!Q~	
+TCTTCTTCTTC/GAAGAAGAAGA	0	6	6	2	-1.5	29	zz!!!9)z"98FPzzz!!!Q1zzzzzzzzzz+92BAzzzzz!!i~	zzzzzzzz!!!Q1zzzzzzzzzz+9~
+AAAAAAATAG/CTATTTTTTT	0	3	3	0	-1.8	30	zzzzzzzzzzzzz5QCcazzzzzzzzzz!!!!#zz!!%N~	
+AAAGAAAGAG/CTCTTTCTTT	0	3	3	0	-1.8	31	zzzzzzzzzzzz!!!9)zzzzzzzzz!!#7azzzzzzzzzz5Q~	
+TCTTGTTCCG/CGGAACAAGA	0	3	3	0	-2.1	32	zzzzzzzzzzzzzzzzzzzzz5QCiczzzz!!!-~	
+TTTTTTCCTT/AAGGAAAAAA	0	4	4	0	-2.1	33	zzzzzzzzzzzz!"],1zzzzzzzzzzz!!E9%z!!!!#z!!!!a~	
+TTTTTTCTTT/AAAGAAAAAA	0	6	6	2	-1.5	34	z!!!9)zzzzzz!!E9%zzzzzzzzzzzzzzz!!#7azzzzJ,fQL!'gMaz!!#7~	zzzzzzzzzz!'gMazzzzzzz&-~
+AAGGAAAGAG/CTCTTTCCTT	0	5	5	1	-1.8	35	zzzzz!!!$"zzzzzzz!!3-#zz&-)\1J,fQLzzzzzz"9~	zzzzzzzzzzzzzzzz!!!"L~
+AGAGAAAGAG/CTCTTTCTCT	0	5	5	0	-2.4	36	zz!!<3$zzzzzzzzzzzz!'gMaz!!!!Azz!!",~	
+AGAGAAAGAGA/TCTCTTTCTCT	0	4	4	0	-2.1	37	zz!!<3$zzzzzzzzzzzz!'gMaz!!!!A~	
+AGAAAAAGAAA/TTTCTTTTTCT	0	5	5	0	-2.4	38	+92BAzzzzzzzzzzzzz!!!Q1zzzzzzzzz!!#7azz!!!9)zz!!!!#~	
+CTTTTTTCTT/AAGAAAAAAG	0	4	4	1	-1.5	39	z!!!9)zzzzzzzzzzzzzzzzzzzzzz!!#7azzzzz!'gMaz!!#7~	!!!!1~
+CTTCTTTTTTT/AAAAAAAGAAG	0	4	4	0	-2.1	40	zzzzzzzzzzzzzzzzz!!!Q1zzzzzzzz!!!!%z!!!!a!!#7~	
+CTTCTTCTTCT/AGAAGAAGAAG	0	5	5	1	-1.8	41	zz!!!9)z"98FPzzz!!!Q1zzzzzzzzzz+9~	zzzzzzzz!!!Q~
+GCAAAAAAAG/CTTTTTTTGC	0	4	4	1	-1.5	42	z!!3-#zzJ,fQLzzzzzzzzzzzzzzzzzzzzzzzzz!!iQ)z5Q~	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz&-~
+CTTTTTTTCC/GGAAAAAAAG	0	5	5	1	-1.8	43	zzz&-)\1zzzzzzzzzzzzzzzzz!!!!azzzz!!*'"z!!!!a!!#7~	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzJ,~
+GAAAAAGAGA/TCTCTTTTTC	0	4	4	1	-1.5	44	!!!!#!$D7Azz!!!9)zzz!!3~	zzzzzzzz!!!Q~
+TTCTCTTTTT/AAAAAGAGAA	0	6	6	0	-2.7	45	z!!!9)zz!<<B*zzz!!3-#z!!!!1zzzzzzzzzzzzzzzzzzzzz!!!!#~	
+TACTCTTTTT/AAAAAGAGTA	0	3	3	0	-1.8	46	zzzzJ,fQLzz!!!!"zzzzzzzzzzzzzz!!3~	
+AAAAAGGGAA/TTCCCTTTTT	0	3	3	0	-1.8	47	zzzzzzzzzzzzzz"98E%zzzzzzzzz!!!"Lzzzzz!!*~	
+TTTTTTTTCCT/AGGAAAAAAAA	0	3	3	0	-1.8	48	zzzzzzzzzz!!!'#zzzzzz"98E%zzzzzz!!E~	
+TTCTTCTTCCT/AGGAAGAAGAA	0	6	6	1	-2.1	49	zz!!!9)zzzzz!!!Q1zzzzzzz!!!!"zz+92BAzzzzz!!iQ)zz!!%N~	zzzzzzzz!!!Q~
+TCTATCTCTT/AAGAGATAGA	0	3	3	0	-1.8	50	zzzzzzz+92BAzzzz!!E9%zzz!!%N~	
+AAGAGAAAGA/TCTTTCTCTT	0	5	5	1	-1.8	51	z!!!9)!!<3$zzzzzzzzzzzz!'gMazzzz!!",~	zzzzzzzz!!3~
+TTTCTCTTTTT/AAAAAGAGAAA	0	3	3	0	-1.8	52	z!!!9)zz!<<B~	
+GGAAAAAGAG/CTCTTTTTCC	0	3	3	0	-1.8	53	zzzz!!!9)zzzzzzzzzzzzzzzzzzzzzzzzzz!!!!I~	
+CTTCCTCTTT/AAAGAGGAAG	0	4	4	0	-2.1	54	z+92BAzzzzz5QCcazzzzzzzzzzzzzzzzzzzzzz!.Y%Lz!$D~	
+CTTTCTCTTT/AAAGAGAAAG	0	4	4	0	-2.1	55	z!!!9)!!*'"z!!!9)zzzzzzz!!!Q~	
+GGAGAAAAAG/CTTTTTCTCC	0	3	3	0	-1.8	56	zzzzzzzzzzzzzz!!!Q1zzzz!'gMa!"]~	
+TCCCTTTTTC/GAAAAAGGGA	0	4	4	0	-2.1	57	zzzzzzzzzzz!!!"Lzz"98E5zzz#Q~	
+TCTCTTTCTC/GAGAAAGAGA	0	4	4	0	-2.1	58	zz!!<3$zzzzzzzzzzzz!'gMaz!!!!A~	
+TATTTTTTTA/TAAAAAAATA	0	3	3	0	-1.8	59	zzz!!!9)z"98E%zz!W~	
+TATTTTTATA/TATAAAAATA	0	4	4	0	-2.1	60	zzzzzzzz!"],15QCcazzzzzzzzzzzzz!!*'"+9~	
+TTCTTCTTCC/GGAAGAAGAA	0	6	6	1	-2.1	61	zz!!!9)zzzzz!!!Q1zzzzzzz!!!!"zz+92BAzzzzz!!iQ)zz!!%N~	zzzzzzzz!!!Q~
+TTCCTCTTCC/GGAAGAGGAA	0	3	3	0	-1.8	62	zzzzzzzz!!%NLzzzzzzz!!!-%zzzzzzzz!!i~	
+TTGTTCTCCT/AGGAGAACAA	0	3	3	0	-1.8	63	zzzzzz!!#7azzzzzzz5QCcazz!.Y~	
+AAAAAAAAGTA/TACTTTTTTTT	0	4	4	0	-2.1	64	zzzzzzzzzzzzzzz!!!9)zzzzzzJ,fWNzz!!%N~	
+TTCTCTTTTTT/AAAAAAGAGAA	0	3	3	0	-1.8	65	z!!!9)zz!<<*"zzzzz!!!!1~	
+AAAAAAAGTA/TACTTTTTTT	0	4	4	0	-2.1	66	zzzzzzzzzzzzzzz!!!9)zzzzzzJ,fWNzz!!%N~	
+TATTTTTATTT/AAATAAAAATA	0	3	3	0	-1.8	67	zzzz!!!!Azzzzzz!!iQ)zzzzzzzzzz!!!"L~	
+AGAGGAAAAA/TTTTTCCTCT	0	4	4	0	-2.1	68	zz!!#7a&-)\1zzzzzzzzzzz5QCcazzzzzzzzzzz!!!$~	
+TTTTCCCTCT/AGAGGGAAAA	0	3	3	0	-1.8	69	zzzzzzzzzzzzzzz!!!9)zz!!!!1zz!!i~	
+AGGAAAAACT/AGTTTTTCCT	0	4	4	0	-2.1	70	zz!!#7a!'gMazzzzzzzzzzz5QCcazzzzzzzz!!!!1~	
+AGGAAGAACT/AGTTCTTCCT	0	3	3	0	-1.8	71	zzzzzzzzzzzz!!E9%z#QOi)z!!%N~	
+AAAAAAGAGT/ACTCTTTTTT	0	3	3	0	-1.8	72	zzzzJ,fQLzz!!!!"zzz+9~	
+ACAAAAGAGT/ACTCTTTTGT	0	3	3	0	-2.1	73	zz!!!Q1zz#QOi)zzzz+9~	
+TCTCTTTTCC/GGAAAAGAGA	0	3	3	0	-1.8	74	zzzzzz!"],1zzzzzzzzz!!*'"zzzzz!!3~	
+AAAGTAAAGA/TCTTTACTTT	0	3	3	0	-1.8	75	zzzzzzz!!E9%zzz!!!!#zzzzz!.Y~	
+TCTTTTCTTT/AAAGAAAAGA	0	3	3	0	-2.1	76	!WW3#zzzzz!!!Q1zzzzzz#Q~	
+GGAGAAAAAGA/TCTTTTTCTCC	0	3	3	0	-1.8	77	zzzzzzzzzzzzzz!!!Q1zzzz!'gMa!"]~	
+GGAGAAAGAAA/TTTCTTTCTCC	0	3	3	0	-1.8	78	zzzzzzzz!!!9)zzzzzz!!!-%zzzzz!!!!"~	
+TTTTTTACTT/AAGTAAAAAA	0	3	3	0	-1.8	79	zz&-)\1zzzzz!WW3#z!'g~	
+AAAAAATAGT/ACTATTTTTT	0	3	3	0	-1.8	80	zzzz+92BAz!!!!#zzzzzzzzzzzzzzzzzzzz!!%N~	
+AAAAGAAAAAT/ATTTTTCTTTT	0	3	3	0	-1.8	81	zz5QCca!!!!%zzzzzzzzz!!",~	
+AAAAGAGTAAT/ATTACTCTTTT	0	3	3	0	-1.8	82	zzzz!!iQ)zz!!!!"zzzzzzzzzzzzzz!!3~	
+AAAAAAGTAA/TTACTTTTTT	0	3	3	0	-1.8	83	zzzzzzzzzzzzzzzzz!!!"LzzzzJ,fQLzzzzzz#Q~	
+AAAGAAATAAA/TTTATTTCTTT	0	3	3	0	-1.8	84	zz!!#7azzzzzzzzzzzzzzzzzzzzzzzzz!!*'"zzzz!!%N~	
+TTTTTTCCTTT/AAAGGAAAAAA	0	3	3	0	-1.8	85	zzzzzzzzzzzz!"],1zzzzzzzzzzz!!E9%zzz!!!!a~	
+TTTTTTTCCTTT/AAAGGAAAAAAA	0	3	3	0	-1.8	86	zzzzzzzzzzzz!"],1zzzzzzzzzzz!!E9%zzz!!!!a~	
+AAAAAAAAAGAA/TTCTTTTTTTTT	0	3	3	0	-1.8	87	zzzzzzzzzzzzzzzzz!!!Q1zzzzzzz+92BAzz!!*~	
+AAGGGAAACG/CGTTTCCCTT	0	3	3	0	-1.8	88	zzzzzzzzzzzzzzzzzzz!WW3#zzzzzzzz!!%NLzzzz!!i~	
+AAGGAAAACG/CGTTTTCCTT	0	3	3	0	-1.8	89	z!!!!%!!",Azzzzzzzzzzzzzzzzzzz!W~	
+TTTTTTTCCTT/AAGGAAAAAAA	0	3	3	0	-1.8	90	zzzzzzzzzzzz!"],1zzzzzzzzzzz!!E9%zzz!!!!a~	
+TCTTCTATTT/AAATAGAAGA	0	3	3	0	-1.8	91	zzzz!!!!azzz!!!!"z!$D~	
+AACTAGAAGA/TCTTCTAGTT	0	3	3	0	-1.8	92	zzzzzzzzzzzzzz#QOi)!'gMazzzz!$D~	
+GCTCTTTTCT/AGAAAAGAGC	0	3	3	0	-1.8	93	zzzzzz&-*:~	
+AGAAAAAAGC/GCTTTTTTCT	0	3	3	0	-1.8	94	zzzzzzzzzzzz!!*'"zzzzzzzzzzz!!#7azzzzzzz!!#7~	
+AGAAAAGAGG/CCTCTTTTCT	0	3	3	0	-1.8	95	zzzzzzzzzz!!!!"zzzzzzzzzzzz!!!!azzzzzzz!!i~	
+CCTCTTTTGT/ACAAAAGAGG	0	3	3	0	-1.8	96	z!WW3#zz&-)\1zzzzzzzzzzzzzzzzzzzzzzzzzzz!$D~	
+CTTTCTCTTTT/AAAAGAGAAAG	0	3	3	0	-1.8	97	z!!!9)zz!!!9)zzzzzzz!!!Q~	
+ATAAAAGAAAG/CTTTCTTTTAT	0	3	3	0	-1.8	98	zzzzzzzzzzzz!!!9)!!iQ)zzzzzzzzz!$D~	
+ATAAAAGAAA/TTTCTTTTAT	0	3	3	0	-1.8	99	zzzzzzzzzzzz!!!9)!!iQ)zzzzzzzzz!$D~	
+TGTCTTTTAT/ATAAAAGACA	0	3	3	0	-1.8	100	zzzzzJ,fQLzzzz!!",A!!i~	
+ATATTTTTAT/ATAAAAATAT	0	3	3	0	-1.8	101	zzzzzzzzz5QCcazzzzzzzzzzzz!!!"L!!*~	
+ATATTTTAAT/ATTAAAATAT	0	3	3	0	-1.8	102	zzzzzzzzzz5QCcazzzzzzzz!0@~	
+CGGAAAAAGA/TCTTTTTCCG	0	3	3	0	-1.8	103	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!I!!#7~	
+CCGAAAAAAA/TTTTTTTCGG	0	3	3	0	-1.8	104	zzz!!!Q1zzzzzzzzz5QCcazzzzzzzzzzzzzzzzzz!!E~	
+GGAGGAAAAT/ATTTTCCTCC	0	3	3	0	-1.8	105	zzz!!3-#zzzz!<<*"zzzzzzzzzzzzz!<~	
+GGAGAAAAAT/ATTTTTCTCC	0	3	3	0	-1.8	106	zzzzzzzzz!!!-%zzz!!3-#zzzzzzzzzz5Q~	
+TCTTCTCTTT/AAAGAGAAGA	0	3	3	0	-1.8	107	zzzzzzz"98E%zzzzzzzzz!!",Azzzzzzz!!i~	
+TTAAAAGAGA/TCTCTTTTAA	0	3	3	0	-1.8	108	zzJ-5iPzzzzzzzzzzzzzzz!W~	
+TAAAAAGAGA/TCTCTTTTTA	0	3	3	0	-1.8	109	zzz&-)\1zzzzzzzz!WW3#zzzzzzzzzzzzzzzzz!!3~	
+TTGAAAGAGA/TCTCTTTCAA	0	3	3	0	-1.8	110	z!!!!"!!*'"+9~	
+%%%
+0 11 9 11 11 11 9 9 0 0 11 9 0 0 0 9 12 0 9 9 0 0 9 9 0 10 0 11 10 0 12 18 9 9 0 0 9 9 10 0 10 10 0 10 0 15 10 0 9 9 0 20 9 0 9 0 12 0 10 9 0 0 0 9 9 0 11 10 13 9 9 10 13 17 19 9 9 0 0 0 9 0 0 16 11 10 12 12 0 0 9 13 15 12 0 9 0 9 9 9 14 18 0 0 0 11 9 16 10 0 12 9 9 12 0 9 12 10 9 10 0 0 12 0 0 9 9 0 12 0 20 0 9 10 9 12 10 0 9 12 14 11 9 0 9 0 0 11 0 9 9 9 0 0 9 0 0 11 11 13 9 0 9 11 9 0 0 10 0 9 10 9 13 9 0 9 11 0 9 9 0 10 9 0 0 0 0 9 0 0 10 9 0 10 9 10 10 10 10 10 17 0 9 18 10 10 9 9 11 0 0 0 11 0 9 9 0 10 0 18 10 9 0 9 0 9 11 9 15 9 9 0 9 0 11 0 0 10 0 0 0 0 12 12 0 9 12 0 20 11 10 9 0 0 0 12 13 9 10 10 0 0 9 0 9 12 16 14 14 9 10 0 13 13 9 9 21 0 9 14 14 9 0 9 10 0 9 10 9 0 9 0 0 10 11 0 0 9 0 0 0 0 0 0 9 9 14 0 0 0 9 9 9 0 9 9 9 0 0 0 10 0 9 9 0 10 9 9 0 9 9 0 0 14 16 10 0 13 0 0 20 15 9 0 10 9 0 0 18 0 0 0 0 0 9 0 0 9 10 13 9 9 0 20 14 0 0 10 9 9 9 0 0 9 0 0 0 11 13 0 0 13 16 9 0 10 0 0 9 0 0 0 17 0 21 0 17 10 0 9 0 9 0 16 9 0 9 0 9 9 9 9 11 14 9 0 9 14 9 14 9 0 12 0 9 11 0 13 0 10 0 9 0 0 0 12 9 11 11 9 0 9 0 9 0 9 0 9 0 9 10 9 9 9 9 9 0 11 9 0 0 11 9 0 0 0 9 18 13 0 0 9 0 0 0 0 9 0 9 10 9 0 12 10 9 0 12 9 0 9 9 0 0 9 12 0 9 0 14 14 0 9 0 0 10 18 9 0 9 0 0 0 9 0 9 9 12 9 9 0 10 12 0 9 0 12 10 16 9 12 14 9 9 0 0 21 16 0 9 9 0 9 9 9 9 9 13 10 0 0 9 10 0 11 9 9 0 0 9 9 0 0 0 0 11 9 9 0 9 0 9 11 9 11 0 14 0 10 11 9 9 0 9 12 9 0 9 0 10 0 9 0 0 0 0 12 9 11 0 11 9 0 9 9 9 9 9 9 0 9 0 0 0 18 0 9 0 0 0 0 9 0 13 21 9 0 0 10 15 0 21 0 0 9 0 9 9 9 9 9 0 0 9 10 9 9 9 0 9 0 9 0 9 10 9 9 9 0 14 9 9 11 0 11 9 10 10 10 10 0 0 0 9 0 0 0 9 11 14 0 0 9 10 9 16 0 0 9 0 12 0 0 9 0 0 9 10 9 0 0 9 10 11 0 14 10 9 0 9 9 12 9 0 14 9 18 0 0 0 0 0 15 0 9 9 10 11 9 9 14 0 9 9 0 0 12 9 0 0 10 0 0 9 0 11 10 0 0 0 13 0 9 0 0 9 10 9 0 0 11 9 9 0 9 9 9 13 0 0 9 10 9 11 13 10 13 9 0 13 9 9 0 9 13 0 9 0 9 13 17 11 0 0 9 13 0 12 0 11 10 0 0 14 0 13 15 0 9 9 0 10 14 9 0 0 0 9 0 9 11 10 0 9 14 9 0 10 0 9 0 9 9 9 9 9 15 9 9 0 0 13 0 0 10 0 0 9 12 0 0 15 9 9 0 9 10 0 9 11 9 9 9 9 0 9 9 0 0 11 0 9 0 0 0 9 11 0 0 0 0 12 0 0 12 0 9 9 9 9 10 0 0 12 0 0 15 0 0 0 9 9 9 0 9 13 0 0 0 0 0 0 9 0 9 9 9 10 0 12 11 0 0 21 13 0 16 16 0 0 0 25 9 9 0 0 13 0 9 0 9 9 0 9 9 0 0 9 0 0 0 13 10 0 0 9 0 9 9 9 11 10 9 9 0 0 9 10 10 10 10 0 9 0 10 9 10 9 9 9 0 0 0 9 0 0 14 9 9 12 9 10 0 11 10 9 0 0 0 17 9 12 0 0 11 0 0 0 9 0 0 9 0 0 0 11 0 0 0 24 14 9 10 10 0 9 0 9 9 9 0 9 0 9 14 10 11 0 10 0 11 9 14 10 10 13 9 15 0 9 10 0 0 0 9 10 0 0 0 0 10 0 0 9 15 0 0 0 11 11 0 13 0 0 0 0 9 0 9 9 9 0 0 9 10 9 10 10 9 9 0 9 0 
+0 0 0 0 0 9 0 0 0 0 0 0 9 0 10 0 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 9 0 0 0 0 10 0 0 0 9 0 0 0 9 0 0 0 0 0 0 0 0 0 0 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 0 0 0 0 0 0 0 12 0 0 0 0 0 9 9 0 0 9 0 0 0 9 0 0 0 0 0 0 0 0 9 0 0 9 0 9 0 0 0 9 9 0 0 0 0 0 0 0 9 0 0 9 0 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 9 0 0 0 10 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 9 0 0 0 9 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 9 0 0 0 0 9 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 0 0 0 0 0 0 0 0 0 13 0 0 0 9 0 0 9 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 0 10 0 0 0 0 0 0 0 0 0 9 0 0 0 9 0 0 0 0 0 0 11 0 0 0 0 0 0 9 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 10 0 0 0 0 0 0 9 0 0 0 0 0 0 9 0 9 0 0 0 0 0 9 9 0 9 0 0 0 0 9 0 0 0 0 9 0 0 10 0 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 10 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 10 0 0 0 9 9 0 0 0 0 0 0 0 0 0 9 0 9 0 0 0 0 0 10 9 0 0 0 9 0 9 0 0 0 0 0 0 0 0 0 0 9 0 9 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 10 0 11 9 0 0 0 0 0 9 0 0 0 0 0 0 10 0 0 0 0 9 0 0 0 10 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 9 0 9 0 0 0 0 0 0 0 9 0 0 0 0 0 10 0 9 0 0 0 0 11 0 0 0 0 0 0 0 9 0 0 0 0 0 0 10 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 0 9 0 10 9 9 9 0 0 9 0 0 0 10 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 9 0 0 0 0 0 0 10 9 0 0 0 9 9 0 0 9 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 0 0 0 0 0 0 0 9 0 0 9 0 0 0 0 9 0 9 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 11 9 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 9 0 0 0 0 0 9 0 0 0 9 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 9 0 9 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 0 9 0 0 9 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 0 9 0 0 0 0 0 0 0 0 0 9 0 0 0 9 0 0 0 9 0 0 0 0 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 0 9 0 9 0 0 0 0 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 
+1.9441 1.7818 1.9315 1.8432 1.8458 1.1298 1.6571 1.2448 1.4015 1.2032 1.5403 1.0544 1.1148 1.0708 1.0583 0.9767 1.0574 1.0664 1.5248 1.1493 1.0432 0.9956 0.9401 0.9812 1.0370 0.9512 0.9897 0.9647 1.0198 0.9712 1.4997 1.2499 0.9673 0.9897 1.0181 1.0273 0.9677 0.9897 1.0751 1.2880 1.0975 1.0050 1.0273 0.9444 1.0072 0.9740 0.9775 1.0480 0.9775 0.9420 1.1702 0.9647 1.4034 1.2905 0.9678 0.9521 0.9421 0.9581 0.9316 1.4441 0.9956 1.1584 1.2091 0.9855 0.9756 1.4391 1.0296 1.0069 0.9775 0.9843 1.0299 1.0013 1.0013 0.9372 0.9837 0.9538 0.9306 0.9505 0.9421 1.0012 0.9534 1.0413 0.9339 0.9712 2.0167 0.9684 0.9409 1.5785 0.9956 1.1750 1.0708 0.9789 1.2125 1.0240 0.9572 0.9837 1.0510 1.0751 0.9897 0.9298 0.9775 0.9595 0.9513 0.9775 1.0124 0.9513 0.9686 1.2961 0.9775 1.0783 0.9527 1.1323 1.0231 1.0540 0.9833 1.0116 0.9532 0.9581 0.9707 0.9298 1.0708 0.9581 0.9815 0.9729 0.9647 1.0178 0.9897 1.1023 1.0469 0.9712 0.9298 0.9581 0.9956 0.9372 0.9647 1.0069 0.9768 1.2390 0.9444 0.9913 1.0178 0.9647 0.9298 0.9775 0.9400 0.9708 0.9637 0.9644 1.0060 1.1860 0.9904 0.9475 1.0528 0.9647 0.9500 0.9636 1.0422 0.9444 0.9562 0.9581 0.9444 1.0013 1.3310 1.0377 0.9565 0.9500 0.9736 0.9299 0.9513 0.9581 0.9712 0.9298 0.9298 0.9337 1.1842 0.9513 0.9372 0.9403 0.9837 0.9707 0.9712 1.1906 0.9372 0.9897 0.9372 1.0305 1.1326 0.9298 0.9381 0.9853 1.0430 0.9965 0.9535 0.9586 0.9647 1.0178 0.9897 0.9513 0.9657 0.9846 0.9591 1.2521 0.9372 0.9830 1.5033 0.9712 0.9776 0.9426 1.0948 0.9444 0.9298 0.9328 0.9416 0.9527 0.9581 0.9581 0.9568 0.9581 0.9519 0.9513 0.9513 1.0283 1.0124 0.9444 0.9775 0.9444 0.9581 0.9918 0.9494 0.9384 0.9950 0.9372 0.9672 0.9775 0.9444 0.9513 0.9589 1.0107 0.9754 0.9775 0.9340 0.9700 0.9503 0.9315 1.0480 0.9647 0.9355 0.9472 0.9504 1.4172 0.9372 0.9454 0.9647 0.9298 1.0483 0.9775 0.9444 1.0178 1.0178 0.9513 0.9513 0.9444 0.9298 1.0228 0.9528 0.9334 0.9647 0.9704 1.1322 0.9488 0.9581 0.9513 0.9444 0.9581 0.9647 1.0148 0.9818 0.9581 1.0574 0.9548 1.0231 0.9513 0.9298 0.9539 0.9897 0.9740 0.9444 1.0283 0.9837 0.9585 0.9597 0.9775 0.9513 1.0913 1.1073 0.9954 0.9427 0.9372 0.9712 0.9513 0.9372 0.9473 0.9712 1.6044 1.0602 0.9837 1.0619 0.9472 0.9298 0.9343 0.9304 0.9647 0.9372 0.9319 0.9513 0.9802 0.9837 0.9298 1.0013 0.9392 1.0876 0.9444 0.9298 0.9626 0.9894 0.9372 1.0434 0.9444 0.9372 0.9298 0.9298 0.9313 0.9712 0.9581 0.9298 0.9634 0.9612 1.3714 1.2246 1.2710 0.9356 0.9712 0.9513 0.9298 1.1728 0.9374 0.9986 0.9513 0.9444 0.9316 0.9612 0.9541 0.9298 1.0213 0.9886 0.9708 1.0231 0.9712 0.9298 0.9298 1.0498 0.9372 1.2623 1.0088 0.9444 0.9723 1.0069 0.9298 0.9513 0.9373 0.9372 1.0830 0.9298 0.9372 0.9712 0.9581 0.9298 0.9581 0.9372 1.0627 0.9643 0.9599 0.9647 0.9513 0.9581 1.0069 1.3139 0.9513 0.9682 0.9513 0.9513 0.9481 0.9300 0.9590 0.9403 0.9372 1.1906 0.9956 0.9775 1.1063 1.1212 0.9775 0.9647 0.9956 0.9712 0.9444 0.9738 0.9444 0.9581 0.9372 1.1285 0.9781 1.0231 0.9956 0.9444 1.0231 0.9411 0.9377 1.0487 0.9513 1.0069 0.9515 1.0014 0.9344 0.9398 0.9695 0.9444 0.9837 1.0334 1.0210 0.9775 0.9712 0.9367 0.9351 0.9757 0.9581 1.0151 0.9366 0.9610 0.9372 0.9647 0.9372 0.9313 0.9849 0.9977 0.9513 1.0305 1.1348 0.9557 0.9298 0.9837 0.9837 0.9372 1.0069 0.9372 0.9668 0.9322 1.0383 0.9521 0.9410 0.9858 0.9373 0.9298 0.9750 1.0713 0.9513 0.9298 1.0273 0.9628 1.0013 0.9733 1.0383 0.9453 0.9367 0.9712 0.9372 0.9513 0.9528 0.9513 0.9581 0.9581 0.9298 0.9647 0.9647 0.9494 0.9647 1.0214 0.9298 1.1597 0.9673 0.9537 0.9712 0.9303 0.9581 0.9659 1.0178 1.0013 0.9406 0.9420 0.9447 0.9337 0.9535 0.9513 0.9712 0.9622 0.9444 0.9391 0.9491 0.9372 0.9298 0.9372 0.9434 0.9946 0.9374 0.9510 1.0383 0.9392 0.9421 0.9342 0.9698 0.9347 0.9433 0.9298 1.1089 1.0732 0.9372 0.9444 0.9353 0.9444 0.9348 0.9897 0.9372 1.1325 0.9444 0.9298 0.9298 0.9689 1.0812 0.9581 0.9453 1.1523 0.9372 0.9693 1.0664 0.9522 1.0178 1.0835 0.9331 0.9358 0.9636 0.9298 0.9444 0.9503 0.9380 0.9513 0.9897 0.9444 0.9625 1.1231 1.0178 1.1797 1.0169 0.9372 1.0088 0.9444 0.9438 1.0448 1.0231 0.9504 1.3168 0.9372 0.9372 0.9372 0.9444 0.9897 1.0334 1.0653 0.9372 1.0178 0.9754 1.0168 0.9458 0.9446 0.9712 0.9372 1.0932 1.0013 0.9581 0.9299 1.0013 1.0543 0.9372 0.9581 0.9505 1.0343 0.9298 0.9513 0.9525 0.9513 0.9837 0.9444 1.0560 0.9444 0.9443 1.1493 0.9372 0.9298 1.0283 0.9712 0.9298 1.2519 0.9775 0.9428 0.9444 0.9554 0.9485 0.9444 0.9650 1.0951 1.0124 0.9647 0.9748 0.9513 0.9527 0.9568 0.9513 0.9298 0.9723 1.2070 1.0283 0.9365 0.9956 0.9298 0.9444 0.9372 1.1648 0.9635 0.9768 0.9937 0.9594 0.9463 0.9444 0.9608 0.9581 0.9581 0.9298 0.9525 1.1756 0.9327 0.9298 0.9351 1.1303 0.9525 0.9372 0.9444 0.9747 0.9581 0.9647 1.0410 0.9647 0.9325 0.9663 0.9568 0.9444 0.9372 0.9611 0.9513 0.9444 0.9798 0.9581 0.9448 0.9956 1.0096 1.0124 0.9443 0.9837 1.1221 0.9372 0.9298 0.9811 0.9450 0.9298 0.9302 0.9830 0.9372 0.9298 0.9322 0.9837 0.9853 1.9919 0.9372 1.1435 0.9522 0.9581 0.9312 0.9575 0.9372 0.9444 1.0013 0.9298 1.0283 1.0334 0.9444 0.9644 1.1382 0.9298 0.9897 0.9436 0.9897 1.0210 1.0061 0.9542 1.0334 0.9298 0.9298 0.9298 0.9554 1.0124 0.9401 0.9372 0.9444 1.0561 0.9421 0.9444 0.9621 1.0028 0.9496 0.9514 0.9366 0.9789 0.9298 0.9298 0.9372 0.9444 0.9581 0.9372 0.9394 1.3804 0.9298 0.9298 0.9380 0.9712 1.0124 1.0178 1.0013 0.9444 0.9647 0.9647 1.0283 0.9444 1.2369 1.0708 0.9298 0.9298 0.9775 0.9475 1.0178 0.9298 0.9513 0.9933 0.9298 0.9298 0.9322 0.9530 0.9581 0.9372 0.9530 1.0124 0.9775 0.9714 0.9513 0.9471 0.9513 0.9372 0.9376 0.9358 0.9581 0.9372 0.9775 0.9372 0.9298 0.9372 0.9298 0.9647 1.0398 0.9445 0.9323 0.9488 0.9968 0.9654 0.9837 1.0178 0.9956 0.9502 0.9375 0.9446 0.9647 0.9528 0.9360 0.9305 0.9783 0.9451 0.9565 1.1033 0.9837 0.9806 0.9298 0.9826 0.9647 0.9444 0.9647 0.9481 0.9372 0.9372 0.9513 0.9535 0.9647 1.0429 0.9581 0.9897 0.9298 0.9441 0.9444 0.9755 0.9372 0.9523 1.0178 0.9483 0.9581 1.0656 0.9408 0.9601 0.9298 1.0564 1.0019 0.9298 0.9314 0.9456 0.9775 1.0358 1.1239 0.9368 0.9481 1.0231 1.1639 0.9513 0.9313 0.9298 0.9313 1.0192 0.9444 0.9372 0.9581 0.9736 0.9442 0.9816 1.0178 0.9870 0.9320 1.0982 0.9298 0.9420 0.9583 0.9665 0.9513 1.0018 0.9956 0.9650 0.9332 0.9298 0.9444 0.9831 0.9444 0.9298 0.9389 0.9513 0.9298 1.0283 1.0383 0.9782 1.0194 0.9651 1.0540 1.0023 1.0164 0.9772 0.9444 0.9372 0.9429 0.9337 0.9336 0.9647 0.9642 0.9298 0.9696 0.9298 1.0068 0.9418 0.9464 1.0692 0.9647 1.0242 1.2561 0.9647 0.9513 0.9463 0.9320 0.9444 0.9372 1.0657 0.9806 0.9933 1.0439 0.9410 1.0044 0.9455 0.9647 0.9513 1.4199 0.9369 1.1111 1.0637 0.9298 0.9372 0.9298 0.9298 0.9510 0.9298 1.1048 1.0877 0.9559 0.9298 0.9837 1.0086 1.1380 0.9647 1.1905 0.9773 0.9684 0.9513 0.9891 0.9372 0.9513 0.9493 1.0527 0.9444 0.9298 0.9372 0.9712 0.9717 0.9435 0.9444 0.9581 0.9430 0.9298 0.9603 0.9379 1.0338 0.9372 0.9298 0.9837 1.0316 0.9465 0.9485 0.9298 1.0638 1.0644 0.9434 0.9519 0.9298 0.9386 1.0178 1.0013 1.0480 0.9444 0.9441 0.9372 0.9775 0.9513 0.9700 0.9414 0.9298 0.9513 0.9372 0.9428 0.9713 0.9530 0.9583 0.9512 0.9298 1.1090 0.9728 0.9911 0.9444 0.9372 0.9519 0.9512 1.0164 0.9298 1.0283 1.0231 0.9837 0.9299 0.9647 1.1588 1.1996 0.9958 0.9372 0.9775 0.9513 0.9643 0.9298 1.0013 0.9768 0.9570 0.9736 0.9358 0.9444 0.9513 0.9544 0.9581 1.0795 0.9581 1.0343 0.9775 0.9384 0.9298 0.9443 0.9444 0.9775 0.9447 0.9581 0.9806 1.0696 0.9372 0.9298 0.9372 0.9528 0.9367 0.9581 1.0727 0.9712 0.9372 1.0364 1.0708 0.9834 1.0459 0.9897 1.0659 0.9513 1.1864 0.9462 0.9443 0.9513 0.9699 1.0314 0.9298 1.0352 1.0910 0.9467 0.9298 0.9513 0.9581 1.0124 0.9522 0.9382 1.0424 1.0889 0.9897 0.9805 0.9641 0.9436 0.9712 0.9775 0.9902 0.9326 1.0340 0.9416 1.0240 0.9671 1.0686 1.0613 0.9302 0.9645 0.9638 1.9302 1.8670 1.8521 1.7815 1.7670 1.7310 1.7411 

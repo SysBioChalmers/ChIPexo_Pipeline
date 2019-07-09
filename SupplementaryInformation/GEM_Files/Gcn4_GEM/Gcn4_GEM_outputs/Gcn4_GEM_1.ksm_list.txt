@@ -1,0 +1,4 @@
+Gcn4_GEM_1.m0	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Gcn4_GEM/Gcn4_GEM_outputs/Gcn4_GEM_1.m0.KSM.txt
+Gcn4_GEM_1.m1	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Gcn4_GEM/Gcn4_GEM_outputs/Gcn4_GEM_1.m1.KSM.txt
+Gcn4_GEM_1.m2	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Gcn4_GEM/Gcn4_GEM_outputs/Gcn4_GEM_1.m2.KSM.txt
+Gcn4_GEM_1.m3	/c3se/NOBACKUP/groups/c3-c3se605-15-6/TF/_AggregatedTFOutputFiles/Results/Gcn4_GEM/Gcn4_GEM_outputs/Gcn4_GEM_1.m3.KSM.txt

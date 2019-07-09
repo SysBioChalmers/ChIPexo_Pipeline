@@ -1,0 +1,12 @@
+11:635870-636669
+12:427198-427945
+12:706789-707588
+12:834258-835043
+plasmid-2-micron:1-852
+plasmid-2-micron:853-1654
+plasmid-2-micron:1655-1956
+plasmid-2-micron:1957-2457
+plasmid-2-micron:2458-3116
+plasmid-2-micron:3117-3916
+plasmid-2-micron:4219-4996
+plasmid-2-micron:5299-6100

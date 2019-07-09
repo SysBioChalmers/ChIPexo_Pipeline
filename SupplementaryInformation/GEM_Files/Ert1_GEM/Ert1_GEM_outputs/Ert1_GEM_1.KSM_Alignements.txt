@@ -1,0 +1,94 @@
+Motif m0, n=19
+-3	.........TTNTTCC	7	1	-2.6	3/3
+-4	........GTTTTT	5	1	-1.9	1/2
+-7	.....AGAATA	5	1	-1.9	2/2
+-8	....GAGAAT	5	0	-2.6	3/3
+-4	........TTTGTT	5	1	-2.2	1/2
+-8	....CCGAAT	4	1	-1.6	3/4
+-10	..CGAAAA	4	0	-2.2	1/2
+-7	.....AGAGTA	4	0	-2.6	3/3
+-8	....AAAAGC	3	0	-1.9	1/1
+-6	......GAGTTT	3	0	-1.9	3/3
+-12	AGCGAA	3	0	-1.9	1/2
+-2	..........AGATAT	3	0	-1.9	1/1
+-7	.....GGAGTG	3	0	-1.6	2/2
+-6	......GAATTC	3	0	-1.9	3/6
+-6	......GCATTA	3	0	-1.9	1/1
+-9	...TATGAA	3	0	-1.9	1/2
+-2	..........TGTTCC	3	0	-1.9	2/2
+-6	......GAGTAA	3	1	-1.6	2/2
+-9	...CGAGAA	3	0	-1.9	1/1
+Motif m1, n=13
+5	.....TTTGTT	5	1	-2.2	4/5
+10	..........TTTCTC	4	1	-1.6	2/2
+10	..........TCCGGT	3	1	-1.6	2/2
+4	....ATGTGT	3	0	-1.9	1/2
+0	ATTATA	3	0	-1.9	1/1
+1	.ATTGAT	3	0	-1.9	2/2
+1	.GTGGAT	3	1	-1.6	1/1
+7	.......GTGTTT	3	0	-1.9	1/1
+9	.........GTTTCT	3	0	-1.9	3/3
+10	..........TTCATA	3	0	-1.9	1/1
+9	.........TGTGGG	3	0	-1.9	2/3
+10	..........TTACTC	3	1	-1.6	1/1
+3	...TTCATT	3	0	-1.9	1/2
+Motif m2, n=8
+-12	.ACCCG	10	5	-1.4	2/4
+-9	....CGGAA	8	4	-1.5	8/8
+-8	.....CGANAA	7	0	-3.3	4/5
+-11	..ANCGNAA	6	0	-2.9	4/4
+-9	....CGGAG	6	2	-1.6	4/5
+-10	...GCGGA	6	2	-1.6	2/3
+-8	.....CGNGAA	6	1	-2.2	2/3
+-13	CTCCA	5	1	-1.9	2/4
+Motif m3, n=11
+-2	...GGAANAA	7	1	-2.6	2/3
+-4	.CGGANNAA	6	0	-2.9	3/5
+-2	...GAGGAA	6	0	-2.6	6/6
+0	.....AACAAA	5	1	-2.2	2/3
+-3	..AGAGTA	4	0	-2.6	3/3
+-2	...GAGAAA	4	1	-1.6	3/3
+-5	TCGGAG	3	0	-1.9	1/2
+-3	..CGGAAC	3	0	-1.9	2/2
+-1	....AGAAAC	3	0	-1.9	1/1
+-2	...GAGTAA	3	1	-1.6	3/3
+-3	..CGAGAA	3	0	-1.9	2/3
+Motif m4, n=8
+-7	..AGTGA	7	2	-1.9	7/7
+-7	..GGTGA	7	2	-2.2	6/6
+-6	...GTGAT	6	1	-2.6	5/5
+-8	.GAGTG	5	1	-1.9	2/3
+-7	..AGTGC	5	1	-1.9	2/3
+-8	.AAGTG	4	0	-2.2	4/4
+-7	..AGCGA	4	1	-1.6	4/4
+-9	TAAGT	3	0	-1.9	1/1
+Motif m5, n=8
+7	..CTCTT	7	1	-2.6	7/7
+6	.GCTNTT	6	0	-2.9	4/4
+6	.ACTCT	5	2	-1.6	3/4
+5	CACTC	5	1	-1.9	1/2
+7	..CTCTA	5	1	-2.2	4/4
+7	..CACTT	4	0	-2.2	3/3
+6	.TCTCT	4	1	-1.6	4/4
+5	CGCTC	3	0	-1.9	1/1
+Motif m6, n=4
+-9	..CCGANTT	6	0	-2.9	6/6
+-9	..CCGAAT	4	1	-1.6	4/4
+-9	..CCTAAT	3	0	-1.9	3/3
+-11	CTCCGA	3	0	-1.9	1/1
+Motif m7, n=5
+-2	...GGAAAAA	4	1	-1.6	4/4
+0	.....AAAAAAT	3	1	-1.6	1/1
+-5	GGAGGAA	3	0	-1.9	1/1
+-3	..CGGAACA	3	0	-1.9	3/3
+-2	...GGAACAA	3	0	-1.9	3/3
+Motif m8, n=2
+-7	GAAGTGC	3	0	-1.9	3/3
+-7	GAATTCC	3	0	-1.9	1/1
+Motif m9, n=1
+14	ATTTATGA	3	0	-1.9	3/3
+Motif m10, n=2
+9	.GGAGGGGTC	3	0	-1.9	3/3
+8	GGGAGGGGT	3	0	-1.9	3/3
+Motif m11, n=1
+1	CCCCGCGGGG	2	0	-1.6	1/4

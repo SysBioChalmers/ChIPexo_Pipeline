@@ -1,0 +1,38 @@
+#Rtg3_GEM_1.m1
+#KSM version: 1
+#41/41
+#1.09
+#k-mer/r.c.  	Offset	PosCt	wPosCt	NegCt	HgpLg10	CIDs	PosHits (base85 encoding)	NegHits (base85 encoding)
+ANAAAAT/ATTTTNT	1	9	11	2	-3.1	0,1	N.A.	N.A.
+AAAAAA/TTTTTT	2	8	8	3	-1.6	*	&4-ps!!*~	!'h*G~
+AAAANAA/TTNTTTT	1	8	8	0	-3.6	2,-3	N.A.	N.A.
+AGAAAA/TTTTCT	1	6	6	1	-2.6	*	0E;(Y.0~	!!!!%~
+GANAATA/TATTNTC	2	6	6	0	-2.9	-4,5	N.A.	N.A.
+TAAAAA/TTTTTA	1	6	6	2	-1.5	*	!!#>S!!*~	!'gO7~
+GAATGA/TCATTC	-4	6	6	1	-1.9	*	"r)^~	!!!!)~
+GAAAAA/TTTTTC	0	6	6	2	-1.5	*	0LHB~	!'gMa#Q~
+TGCTAT/ATAGCA	-4	5	5	2	-1.5	*	!!!!5#lt~	#QOi9~
+AAAAGC/GCTTTT	3	5	5	0	-2.6	*	+9;LnJ,~	
+AAAATA/TATTTT	3	4	4	1	-1.6	*	&-)t9#l~	!!i~
+AAATGC/GCATTT	6	4	4	1	-1.6	*	&-Mu!~	!!!!%~
+ACAGTA/TACTGT	-3	4	4	1	-1.9	*	!!!"-"9~	!!!!1~
+CTATAA/TTATAG	-2	4	4	0	-2.2	*	!!!!%^]=~	
+ATGAAA/TTTCAT	-2	4	4	1	-1.6	*	#R(b~	!!",~
+GTAAAA/TTTTAC	0	4	4	1	-1.9	*	!!!"-J,~	!!!!a~
+AATAGC/GCTATT	5	3	3	0	-2.2	*	!!!!"#l~	
+ACGCAA/TTGCGT	-2	3	3	0	-1.9	*	!"8jX~	
+ATTGGT/ACCAAT	-6	3	3	0	-2.2	*	!!*'*+9~	
+CAGTAA/TTACTG	-2	3	3	1	-1.6	*	!!!"-~	z"9~
+TAAAAG/CTTTTA	0	3	3	0	-1.9	*	!!!]5J,~	
+GAGAAA/TTTCTC	0	3	3	1	-1.6	*	!!!!##l~	z!<~
+$$$
+AGAAAAT/ATTTTCT	0	4	4	1	-1.9	0	!!!!).0~	!!!!%~
+AAAAAAT/ATTTTTT	0	5	5	1	-2.2	1	&-)]!!!*~	!!!"L~
+AAAAAAA/TTTTTTT	0	5	5	0	-2.6	2	!(%5_~	
+TTCTTTT/AAAAGAA	0	3	3	0	-1.9	3	#Qt8~	
+TATTGTC/GACAATA	0	3	3	0	-1.9	4	!'l2~	
+GAAAATA/TATTTTC	0	3	3	0	-1.9	5	!!!9)#l~	
+%%%
+0 7 6 10 6 6 6 0 6 9 11 6 7 0 6 6 6 6 8 7 8 0 6 7 15 6 15 13 6 9 15 6 11 0 6 11 0 13 6 6 15 
+0 0 0 6 0 0 0 0 0 0 0 6 0 6 8 0 0 0 0 0 6 6 0 0 0 0 6 7 6 0 6 8 6 0 6 6 0 0 0 0 6 
+0.8561 0.9505 0.9522 1.0051 1.0256 0.9099 0.7189 0.7153 1.1238 0.9248 0.8057 1.0283 0.8186 0.7078 0.7189 0.9061 0.8738 0.7189 0.9879 1.0159 0.9453 0.6877 0.9302 0.9137 1.2411 1.2467 1.1929 1.2619 1.1932 1.1983 1.2030 1.2163 1.2211 1.1066 1.1705 1.1197 1.1560 1.2069 0.9767 0.9037 1.1446 
