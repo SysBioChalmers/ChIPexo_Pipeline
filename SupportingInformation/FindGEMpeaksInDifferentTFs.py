@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 TFList=['Cat8','Cbf1','Ert1','Gcn4','Gcr1','Gcr2','Hap1','Ino2','Ino4','Leu3','Oaf1','Pip2','Rds2','Rgt1','Rtg1','Rtg3','Sip4','Stb5','Sut1','Tye7']
 cond='Glu'
 
-path='C:/Users/borlinc/Documents/Projects/190219_ChipExoPipeline/SupplementaryInformation/'
+path='C:/Users/borlinc/Documents/Projects/190219_ChipExoPipeline/SupportingInformation/'
 pathToGEM=path+'GEM_Files/'
 
 
