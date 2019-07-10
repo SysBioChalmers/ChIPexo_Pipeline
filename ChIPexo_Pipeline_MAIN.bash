@@ -12,7 +12,7 @@
 
 # Set Paths
 mainPath=$(pwd)
-outputPath=${mainPath}/Results
+outputPath=${mainPath}/ExampleResults
 tmpPath=${mainPath}/TMP
 softwarePath=${mainPath}/3rdPartySoftware
 pythonPath=${mainPath}/PythonScripts
@@ -22,16 +22,16 @@ refGenomePath=${dataPath}/RefGenome
 refGenomeName=CENPK113-7D
 refGenomeBowtiePath=${dataPath}/RefGenomeBowtie
 
-
 #Add bowtie2, samtools, bedtools and bamutils to path if needed
 #PATH=${softwarePath}/bowtie2-2.3.3.1/:$PATH
 #PATH=${softwarePath}/samtools-1.6/:$PATH
 #PATH=${softwarePath}/bedtools2/bin/:$PATH
+#PATH=${softwarePath}/Meme/bin/:$PATH
 PATH=${softwarePath}/bamUtil-master/:$PATH
 
 #Set TF and Date (used as a postfix for result files)
 TF=Ino2
-date=190610
+date=190710
 
 #Set names of conditions and replicates
 condList=(Eth Glu)
@@ -45,6 +45,7 @@ overlapWigOut=1
 runGEM=1
 runAnalysisGEM=1
 runAnalysisReads=1
+runMotifDiscovery=1
 
 #Set number of available cores, used for bowtie2
 numCores=4
@@ -98,7 +99,7 @@ if [ ${mapFastq} == 1 ]; then
 	done
 
 	if [ ${bamOut} == 1 ]; then
-		for i in ${condList[@]}; do
+		for i in ${condListWithReps[@]}; do
 			cp ${tmpPath}/${TF}_${i}.bam* ${outputPath}/
 		done
 	fi
@@ -167,5 +168,14 @@ if [ ${runAnalysisGEM} == 1 ]; then
 		python3 ${pythonPath}/plotPeakCenteredFigures.py ${TF} ${cond} "${outputPath}/${TF}_GEM/${TF}_GEM.GEM_events.txt" "${outputPath}/${TF}_${cond}_STRAND_singlePos_combRep_${date}.wig" "${outputPath}/${TF}_${cond}" "${date}"
 	done
 fi
-
+if [ ${runMotifDiscovery} == 1 ]; then
+	echo "$(date +%T) ${TF} discover Motifs"
+	for cond in ${condList[@]}; do
+		echo "$(date +%T) ${TF}_${cond} extract peak sequences"
+		python3 ${pythonPath}/extractPeakSequences.py ${TF} ${cond} "${outputPath}/${TF}_GEM/${TF}_GEM.GEM_events.txt" "${outputPath}/${TF}_${cond}_PeakSequences.bed"
+		bedtools getfasta -fi ${refGenomeBowtiePath}/${refGenomeName}.fasta -bed ${outputPath}/${TF}_${cond}_PeakSequences.bed -fo ${outputPath}/${TF}_${cond}_PeakSequences.fasta
+		echo "$(date +%T) ${TF}_${cond} run MEME"
+		meme ${outputPath}/${TF}_${cond}_PeakSequences.fasta -dna -oc . -nostatus -time 18000 -mod zoops -nmotifs 3 -minw 5 -maxw 20 -objfun classic -revcomp -markov_order 0 -o ${outputPath}/${TF}_${cond}_MEME
+	done
+fi
 echo "$(date +%T) Done"
