@@ -2,7 +2,7 @@
 
 This repostiory contains the full pipeline to analyse ChIPexo data, starting from raw sequence read files obtained after sequencing.
 
-- Last update: 2019-07-10
+- Last update: 2019-10-30
 
 This repository is administered by Christoph Boerlin (https://github.com/ChristophBoerlin), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology
 
