@@ -65,7 +65,14 @@ for chrI in ['chr1','chr2','chr3','chr4','chr5','chr6','chr7','chr8','chr9','chr
     allKeys=list(dataList_split[1][chrI].keys())+list(dataList_split[2][chrI].keys())
     for k in allKeys:
         combinedList[chrI].append([k,round(np.mean([dataList_split[1][chrI].get(k,0),dataList_split[2][chrI].get(k,0)]),6)])
-        
+
+#filter low numbers
+combinedListFiltered={}
+for chrI in ['chr1','chr2','chr3','chr4','chr5','chr6','chr7','chr8','chr9','chr10','chr11','chr12','chr13','chr14','chr15','chr16']:
+    combinedListFiltered[chrI]=[]
+    for pos,value in combinedList[chrI]:
+        if value>0.005*maxValue and value>=1:
+            combinedListFiltered[chrI].append([pos,value])
             
 #write processed wigFile
 f = open(sys.argv[len(sys.argv)-3], 'w')
