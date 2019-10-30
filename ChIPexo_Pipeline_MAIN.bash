@@ -33,6 +33,9 @@ PATH=${softwarePath}/bamUtil-master/:$PATH
 TF=Ino2
 date=190710
 
+#Set Sequencing read length
+readLength=75
+
 #Set names of conditions and replicates
 condList=(Eth Glu)
 repNames=(1 2)
@@ -135,7 +138,7 @@ if [ ${overlapWigOut} == 1 ]; then
 fi
 
 if [ ${runGEM} == 1 ]; then
-	((trimBam = 75 - ${trim}))
+	((trimBam = ${readLength} - ${trim}))
 	for i in ${condListWithReps[@]}; do
 		echo "$(date +%T) ${TF}_${i} creating trimmed .bam ${trim}"
 		bam trimBam ${tmpPath}/${TF}_${i}.bam ${tmpPath}/${TF}_${i}_${trim}.bam -R ${trimBam} --clip
