@@ -153,6 +153,10 @@ if [ ${runGEM} == 1 ]; then
 		done
 	done
 	java -jar ${softwarePath}/GEM/gem34.jar ${gemGenomeInput} ${gemDataInput} --f SAM --out ${outputPath}/${TF}_GEM/ --q 2 --k_min 5 --k_max 18 --smooth 3 --min 5 --mrc 50
+	#fix gem file header and cond present value if only one condition selected
+	if [ ${#condList[@]} == 1 ]; then	
+		awk -v cond=${condList} '{OFS="\t"}{ if (NR == 1) print "Position","Cond"cond"_IP","Cond"cond"_Control","Cond"cond"_Fold","Cond"cond"_Expectd","Cond"cond"_Q_-lg10","Cond"cond"_P_-lg10","Cond"cond"_P_poiss","Cond"cond"_IPvsEMP","Cond"cond"_Noise","KmerGroup","MotifId","KG_score","Strand","Cond"cond"_Present"; else print $0,"1"}' ${outputPath}/${TF}_GEM/${TF}_GEM.GEM_events.txt > ${outputPath}/${TF}_GEM/${TF}_GEM.GEM_events.TMP && mv ${outputPath}/${TF}_GEM/${TF}_GEM.GEM_events.TMP ${outputPath}/${TF}_GEM/${TF}_GEM.GEM_events.txt
+	fi
 fi
 
 if [ ${runAnalysisReads} == 1 ]; then
